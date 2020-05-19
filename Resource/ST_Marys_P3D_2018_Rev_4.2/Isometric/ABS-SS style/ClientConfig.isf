@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PnPClientIsoSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StyleFilesDirectory>\</StyleFilesDirectory>
+  <ProdOutputDirectory>\ProdIsos\</ProdOutputDirectory>
+  <QuickOutputDirectory>\QuickIsos\</QuickOutputDirectory>
+  <PCFsOutputDirectory>\PCFs</PCFsOutputDirectory>
+  <CustomExistingStatus />
+  <UseFourDigitYearFormat>false</UseFourDigitYearFormat>
+  <DisplaySupport>true</DisplaySupport>
+  <ConnectionsTexts />
+  <DateFormat>eAmericanFormat</DateFormat>
+  <IsoSamplePcfPath>..\Live Preview\Sample PCF\SampleIsoPreview.pcf</IsoSamplePcfPath>
+  <IsoLDTable use="false" />
+  <IsoFixedLengthPipes UseSeparateLineForCustomPipe="true" CustomPipeFormat="Suffix" CustomPipeDescription=" - CUT TO &lt;cutlength&gt;" />
+</PnPClientIsoSettings>

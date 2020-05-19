@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PnPQueryDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OrderBy />
+  <QuerySpecification xsi:type="PnPSetQuerySpecification">
+  <LeftQuerySpecification xsi:type="PnPRelationshipQuerySpecification">
+    <RightQuerySpecification xsi:type="PnPRelationshipQuerySpecification">
+      <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>PipeLineGroup</TableName>
+      </RightQuerySpecification>
+      <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>PipeLines</TableName>
+      </LeftQuerySpecification>
+      <RightRole>PipeLineGroup</RightRole>
+      <LeftRole>PipeLine</LeftRole>
+      <RelationshipTypes>
+        <string>PipeLineGroupRelationship</string>
+      </RelationshipTypes>
+    </RightQuerySpecification>
+    <LeftQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+      <RightQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+        <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <CorrelationName />
+          <Filter />
+          <TableQualifier />
+          <TableName>PnPDrawings</TableName>
+        </RightQuerySpecification>
+        <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <CorrelationName />
+          <Filter />
+          <TableQualifier />
+          <TableName>PnPDataLinks</TableName>
+        </LeftQuerySpecification>
+        <RightJoinColumns>
+          <string>PnPID</string>
+        </RightJoinColumns>
+        <LeftJoinColumns>
+          <string>DwgId</string>
+        </LeftJoinColumns>
+        <JoinOperation>LeftOuter</JoinOperation>
+      </RightQuerySpecification>
+      <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>Flowmeters</TableName>
+      </LeftQuerySpecification>
+      <RightJoinColumns>
+        <string>RowId</string>
+      </RightJoinColumns>
+      <LeftJoinColumns>
+        <string>PnPID</string>
+      </LeftJoinColumns>
+      <JoinOperation>LeftOuter</JoinOperation>
+    </LeftQuerySpecification>
+    <RightRole>Line</RightRole>
+    <LeftRole>Asset</LeftRole>
+    <RelationshipTypes>
+      <string>LineInLineAsset</string>
+    </RelationshipTypes>
+  </LeftQuerySpecification>
+
+  <RightQuerySpecification xsi:type="PnPRelationshipQuerySpecification">
+    <RightQuerySpecification xsi:type="PnPRelationshipQuerySpecification">
+      <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>PipeLineGroup</TableName>
+      </RightQuerySpecification>
+      <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>PipeLines</TableName>
+      </LeftQuerySpecification>
+      <RightRole>PipeLineGroup</RightRole>
+      <LeftRole>PipeLine</LeftRole>
+      <RelationshipTypes>
+        <string>PipeLineGroupRelationship</string>
+      </RelationshipTypes>
+    </RightQuerySpecification>
+    <LeftQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+      <RightQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+        <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <CorrelationName />
+          <Filter />
+          <TableQualifier />
+          <TableName>PnPDrawings</TableName>
+        </RightQuerySpecification>
+        <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <CorrelationName />
+          <Filter />
+          <TableQualifier />
+          <TableName>PnPDataLinks</TableName>
+        </LeftQuerySpecification>
+        <RightJoinColumns>
+          <string>PnPID</string>
+        </RightJoinColumns>
+        <LeftJoinColumns>
+          <string>DwgId</string>
+        </LeftJoinColumns>
+        <JoinOperation>LeftOuter</JoinOperation>
+      </RightQuerySpecification>
+      <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>Instruments_scheduled</TableName>
+      </LeftQuerySpecification>
+      <RightJoinColumns>
+        <string>RowId</string>
+      </RightJoinColumns>
+      <LeftJoinColumns>
+        <string>PnPID</string>
+      </LeftJoinColumns>
+      <JoinOperation>LeftOuter</JoinOperation>
+    </LeftQuerySpecification>
+    <RightRole>Line</RightRole>
+    <LeftRole>Asset</LeftRole>
+    <RelationshipTypes>
+      <string>LineInLineAsset</string>
+    </RelationshipTypes>
+  </RightQuerySpecification>
+ 
+ 
+	<LeftColumns>
+		<string>RevChanged</string>
+		<string>PnPID</string>
+		<string>DataSheetReference</string>
+		<string>DrgNo</string>
+		<string>FacilityNo</string>
+		<string>Tag</string>
+		<string>Type</string>
+		<string>AreaNo</string>
+		<string>SiteNo</string>
+		<string>LoopNumber</string>
+		<string>Size</string>
+		<string>Vendor</string>
+		<string>ParentLoc</string>
+		<string>LocWIfacility</string>
+		<string>LocationDes</string>
+		<string>AssetDes</string>
+		<string>TelemetryMonitored</string>
+		<string>AssetPurpose</string>
+		<string>Fluid</string>
+    <string>InstrumentType</string>
+    <string>Instrument_Range</string>
+    <string>Tank_IR_Instrument</string>
+    <string>OverFlowLevel</string>
+    <string>TopOfConc</string>
+    <string>Instrumentation0</string>
+    <string>Instrumentation100</string>
+    <string>Manufacturer</string>
+    <string>ModelNumber</string>
+    <string>Supplier</string>
+    <string>OrderingInfo</string>
+    <string>PreLocNo1</string>
+    <string>PreLocNo2</string>
+    <string>Status</string>
+    <string>StatusOfInfo</string>
+    <string>Comment</string>
+    <string>EndConnectionType</string>
+
+	</LeftColumns>
+	<RightColumns>
+		<string>RevChanged</string>
+		<string>PnPID</string>
+		<string>DataSheetReference</string>
+		<string>DrgNo</string>
+		<string>FacilityNo</string>
+		<string>Tag</string>
+		<string>Type</string>
+		<string>AreaNo</string>
+		<string>SiteNo</string>
+		<string>LoopNumber</string>
+		<string>Size</string>
+		<string>Vendor</string>
+		<string>ParentLoc</string>
+		<string>LocWIfacility</string>
+		<string>LocationDes</string>
+		<string>AssetDes</string>
+		<string>TelemetryMonitored</string>
+		<string>AssetPurpose</string>
+		<string>Fluid</string>
+    <string>InstrumentType</string>
+    <string>Instrument_Range</string>
+    <string>Tank_IR_Instrument</string>
+    <string>OverFlowLevel</string>
+    <string>TopOfConc</string>
+    <string>Instrumentation0</string>
+    <string>Instrumentation100</string>
+    <string>Manufacturer</string>
+    <string>ModelNumber</string>
+    <string>Supplier</string>
+    <string>OrderingInfo</string>
+    <string>PreLocNo1</string>
+    <string>PreLocNo2</string>
+    <string>Status</string>
+    <string>StatusOfInfo</string>
+    <string>Comment</string>
+    <string>EndConnectionType</string>
+
+		</RightColumns>
+	<SetOperation>Union</SetOperation>
+  </QuerySpecification>
+  <DerivedProperties />
+  <SelectList>
+		<string>RevChanged</string>
+		<string>PnPID</string>
+		<string>DataSheetReference</string>
+		<string>DrgNo</string>
+		<string>FacilityNo</string>
+		<string>Tag</string>
+		<string>Type</string>
+		<string>AreaNo</string>
+		<string>SiteNo</string>
+		<string>LoopNumber</string>
+		<string>Size</string>
+		<string>Vendor</string>
+		<string>ParentLoc</string>
+		<string>LocWIfacility</string>
+		<string>LocationDes</string>
+		<string>AssetDes</string>
+		<string>TelemetryMonitored</string>
+		<string>AssetPurpose</string>
+		<string>Fluid</string>
+    <string>InstrumentType</string>
+    <string>Instrument_Range</string>
+    <string>Tank_IR_Instrument</string>
+    <string>OverFlowLevel</string>
+    <string>TopOfConc</string>
+    <string>Instrumentation0</string>
+    <string>Instrumentation100</string>
+    <string>Manufacturer</string>
+    <string>ModelNumber</string>
+    <string>Supplier</string>
+    <string>OrderingInfo</string>
+    <string>PreLocNo1</string>
+    <string>PreLocNo2</string>
+    <string>Status</string>
+    <string>StatusOfInfo</string>
+    <string>Comment</string>
+    <string>EndConnectionType</string>
+	
+  </SelectList>
+</PnPQueryDefinition>

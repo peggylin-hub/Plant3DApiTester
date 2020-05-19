@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PnPQueryDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OrderBy />
+  <QuerySpecification xsi:type="PnPRelationshipQuerySpecification">
+    <RightQuerySpecification xsi:type="PnPRelationshipQuerySpecification">
+      <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>PipeLineGroup</TableName>
+      </RightQuerySpecification>
+      <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>PipeLines</TableName>
+      </LeftQuerySpecification>
+      <RightRole>PipeLineGroup</RightRole>
+      <LeftRole>PipeLine</LeftRole>
+      <RelationshipTypes>
+        <string>PipeLineGroupRelationship</string>
+      </RelationshipTypes>
+    </RightQuerySpecification>
+    <LeftQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+      <RightQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+        <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <CorrelationName />
+          <Filter />
+          <TableQualifier />
+          <TableName>PnPDrawings</TableName>
+        </RightQuerySpecification>
+        <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <CorrelationName />
+          <Filter />
+          <TableQualifier />
+          <TableName>PnPDataLinks</TableName>
+        </LeftQuerySpecification>
+        <RightJoinColumns>
+          <string>PnPID</string>
+        </RightJoinColumns>
+        <LeftJoinColumns>
+          <string>DwgId</string>
+        </LeftJoinColumns>
+        <JoinOperation>LeftOuter</JoinOperation>
+      </RightQuerySpecification>
+      <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>Instruments_scheduled</TableName>
+      </LeftQuerySpecification>
+      <RightJoinColumns>
+        <string>RowId</string>
+      </RightJoinColumns>
+      <LeftJoinColumns>
+        <string>PnPID</string>
+      </LeftJoinColumns>
+      <JoinOperation>LeftOuter</JoinOperation>
+    </LeftQuerySpecification>
+    <RightRole>Line</RightRole>
+    <LeftRole>Asset</LeftRole>
+    <RelationshipTypes>
+      <string>LineInLineAsset</string>
+    </RelationshipTypes>
+  </QuerySpecification>
+  <DerivedProperties />
+  <SelectList>
+    <string>Instruments_scheduled.RevChanged</string>
+    <string>PnPID</string>
+    <string>Instruments_scheduled.DataSheetReference</string>
+    <string>Instruments_scheduled.DrgNo</string>
+    <string>Instruments_scheduled.FacilityNo</string>
+    <string>Instruments_scheduled.Tag</string>
+    <string>Type</string>
+    <string>Instruments_scheduled.AreaNo</string>
+    <string>Instruments_scheduled.SiteNo</string>
+    <string>LoopNumber</string>
+    <string>Instruments_scheduled.Size</string>
+    <string>Instruments_scheduled.Vendor</string>
+    <string>Instruments_scheduled.ParentLoc</string>
+    <string>Instruments_scheduled.LocWIfacility</string>
+    <string>Instruments_scheduled.LocationDes</string>
+    <string>Instruments_scheduled.AssetDes</string>
+    <string>TelemetryMonitored</string>
+    <string>AssetPurpose</string>
+    <string>Fluid</string>
+   <string>InstrumentType</string>
+    <string>Instrument_Range</string>
+    <string>Tank_IR_Instrument</string>
+    <string>OverFlowLevel</string>
+    <string>TopOfConc</string>
+    <string>Instrumentation0</string>
+    <string>Instrumentation100</string>
+    <string>Instruments_scheduled.Manufacturer</string>
+    <string>Instruments_scheduled.ModelNumber</string>
+    <string>Instruments_scheduled.Supplier</string>
+    <string>OrderingInfo</string>
+    <string>Instruments_scheduled.PreLocNo1</string>
+    <string>Instruments_scheduled.PreLocNo2</string>
+    <string>Instruments_scheduled.Status</string>
+    <string>Instruments_scheduled.StatusOfInfo</string>
+    <string>Instruments_scheduled.Comment</string>
+    <string>EndConnectionType</string>
+  </SelectList>
+</PnPQueryDefinition>

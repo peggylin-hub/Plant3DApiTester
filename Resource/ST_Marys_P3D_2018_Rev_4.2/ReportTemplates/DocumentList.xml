@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PnPQueryDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OrderBy>
+    <PnPSortItem>
+      <SortDirection>Ascending</SortDirection>
+      <SortColumn>PnID</SortColumn>
+    </PnPSortItem>
+  </OrderBy>
+  <QuerySpecification xsi:type="PnPTableQuerySpecification">
+    <Filter />
+    <TableName>PnPDrawings</TableName>
+  </QuerySpecification>
+  <SelectList>
+    <string>PnID</string>
+    <string>Dwg Name</string>
+    <string>Title</string>
+    <string>Path</string>
+    <string>Revision</string>
+    <string>PnPID</string>
+  </SelectList>
+</PnPQueryDefinition>

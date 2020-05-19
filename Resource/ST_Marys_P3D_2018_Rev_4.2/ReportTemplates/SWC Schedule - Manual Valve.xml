@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PnPQueryDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OrderBy />
+  <QuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+    <RightQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+      <RightQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+        <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <CorrelationName />
+          <Filter />
+          <TableQualifier />
+          <TableName>PnPDrawings</TableName>
+        </RightQuerySpecification>
+        <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <CorrelationName />
+          <Filter />
+          <TableQualifier />
+          <TableName>PnPDataLinks</TableName>
+        </LeftQuerySpecification>
+        <RightJoinColumns>
+          <string>PnPID</string>
+        </RightJoinColumns>
+        <LeftJoinColumns>
+          <string>DwgId</string>
+        </LeftJoinColumns>
+        <JoinOperation>LeftOuter</JoinOperation>
+      </RightQuerySpecification>
+      <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>ControlValve</TableName>
+      </LeftQuerySpecification>
+      <RightJoinColumns>
+        <string>RowId</string>
+      </RightJoinColumns>
+      <LeftJoinColumns>
+        <string>PnPID</string>
+      </LeftJoinColumns>
+      <JoinOperation>LeftOuter</JoinOperation>
+    </RightQuerySpecification>
+    <LeftQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+      <RightQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+        <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <CorrelationName />
+          <Filter />
+          <TableQualifier />
+          <TableName>PnPDrawings</TableName>
+        </RightQuerySpecification>
+        <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <CorrelationName />
+          <Filter />
+          <TableQualifier />
+          <TableName>PnPDataLinks</TableName>
+        </LeftQuerySpecification>
+        <RightJoinColumns>
+          <string>PnPID</string>
+        </RightJoinColumns>
+        <LeftJoinColumns>
+          <string>DwgId</string>
+        </LeftJoinColumns>
+        <JoinOperation>LeftOuter</JoinOperation>
+      </RightQuerySpecification>
+      <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>HandValves</TableName>
+      </LeftQuerySpecification>
+      <RightJoinColumns>
+        <string>RowId</string>
+      </RightJoinColumns>
+      <LeftJoinColumns>
+        <string>PnPID</string>
+      </LeftJoinColumns>
+      <JoinOperation>LeftOuter</JoinOperation>
+    </LeftQuerySpecification>
+    <RightJoinColumns>
+      <string>PnPID</string>
+    </RightJoinColumns>
+    <LeftJoinColumns>
+      <string>tag</string>
+    </LeftJoinColumns>
+    <JoinOperation>LeftOuter</JoinOperation>
+  </QuerySpecification>
+  <DerivedProperties />
+  <SelectList>
+    <string>HandValves.RevChanged</string>
+    <string>PnPID</string>
+    <string>HandValves.DataSheetReference</string>
+    <string>HandValves.FacilityNo</string>
+    <string>HandValves.DrgNo</string>
+    <string>HandValves.Tag</string>
+    <string>HandValves.ValveCode</string>
+    <string>HandValves.AreaNo</string>
+    <string>HandValves.SiteNo</string>
+    <string>HandValves.Number</string>
+    <string>HandValves.Size</string>
+    <string>HandValves.Vendor</string>
+    <string>HandValves.Manufacturer</string>
+    <string>HandValves.ModelNumber</string>
+    <string>HandValves.Supplier</string>
+    <string>VALVE_TYPE</string>
+    <string>HandValves.AssetDes</string>
+    <string>HandValves.LocationDes</string>
+    <string>HandValves.LocWIfacility</string>
+    <string>HandValves.ParentAsset</string>
+    <string>HandValves.ParentLoc</string>
+    <string>HandValves.TelemetryMonitored</string>
+    <string>EndConnectType</string>
+    <string>HandValves.Fluid</string>
+    <string>HandValves.Normally</string>
+    <string>HandValves.RatedPressure</string>
+    <string>HandValves.WorkingPressure</string>
+    <string>HandValves.TestPressure</string>
+    <string>HandValves.MaterialBody</string>
+    <string>HandValves.MaterialShaft</string>
+    <string>HandValves.MaterialSeals</string>
+    <string>HandValves.MaterialSeat</string>
+    <string>MaterialOther</string>
+    <string>HandValves.Status</string>
+    <string>HandValves.StatusOfInfo</string>
+    <string>HandValves.Comment</string>
+  </SelectList>
+</PnPQueryDefinition>

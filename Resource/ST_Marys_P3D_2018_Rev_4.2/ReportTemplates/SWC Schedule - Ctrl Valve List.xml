@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PnPQueryDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OrderBy />
+  <QuerySpecification xsi:type="PnPRelationshipQuerySpecification">
+    <RightQuerySpecification xsi:type="PnPRelationshipQuerySpecification">
+      <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>PipeLineGroup</TableName>
+      </RightQuerySpecification>
+      <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>PipeLines</TableName>
+      </LeftQuerySpecification>
+      <RightRole>PipeLineGroup</RightRole>
+      <LeftRole>PipeLine</LeftRole>
+      <RelationshipTypes>
+        <string>PipeLineGroupRelationship</string>
+      </RelationshipTypes>
+    </RightQuerySpecification>
+    <LeftQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+      <RightQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+        <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <CorrelationName />
+          <Filter />
+          <TableQualifier />
+          <TableName>PnPDrawings</TableName>
+        </RightQuerySpecification>
+        <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <CorrelationName />
+          <Filter />
+          <TableQualifier />
+          <TableName>PnPDataLinks</TableName>
+        </LeftQuerySpecification>
+        <RightJoinColumns>
+          <string>PnPID</string>
+        </RightJoinColumns>
+        <LeftJoinColumns>
+          <string>DwgId</string>
+        </LeftJoinColumns>
+        <JoinOperation>LeftOuter</JoinOperation>
+      </RightQuerySpecification>
+      <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>ControlValve</TableName>
+      </LeftQuerySpecification>
+      <RightJoinColumns>
+        <string>RowId</string>
+      </RightJoinColumns>
+      <LeftJoinColumns>
+        <string>PnPID</string>
+      </LeftJoinColumns>
+      <JoinOperation>LeftOuter</JoinOperation>
+    </LeftQuerySpecification>
+    <RightRole>Line</RightRole>
+    <LeftRole>Asset</LeftRole>
+    <RelationshipTypes>
+      <string>LineInLineAsset</string>
+      <string>LineStartAsset</string>
+      <string>LineEndAsset</string>
+    </RelationshipTypes>
+  </QuerySpecification>
+  <DerivedProperties />
+  <SelectList>
+    <string>ControlValve.RevChanged</string>
+    <string>PnPID</string>
+    <string>ControlValve.DataSheetReference</string>
+    <string>ControlValve.FacilityNo</string>
+    <string>ControlValve.DrgNo</string>
+    <string>ControlValve.Tag</string>
+    <string>ValveCode</string>
+    <string>ControlValve.AreaNo</string>
+    <string>ControlValve.SiteNo</string>
+    <string>Number</string>
+    <string>ControlValve.Size</string>
+    <string>ControlValve.Vendor</string>
+    <string>ControlValve.Manufacturer</string>
+    <string>ControlValve.ModelNumber</string>
+    <string>ControlValve.Supplier</string>
+    <string>ControlValve.AssetType</string>
+    <string>ControlValve.AssetDes</string>
+    <string>ControlValve.LocationDes</string>
+    <string>ControlValve.LocWIfacility</string>
+    <string>ControlValve.ParentAsset</string>
+    <string>ControlValve.ParentLoc</string>
+    <string>TelemetryMonitored</string>
+    <string>EndConnectionType</string>
+    <string>Fluid</string>
+    <string>Normally</string>
+    <string>RatedPressure</string>
+    <string>WorkingPressure</string>
+    <string>ControlValve.TestPressure</string>
+    <string>MaterialBody</string>
+    <string>MaterialShaft</string>
+    <string>MaterialSeals</string>
+    <string>MaterialSeat</string>
+    <string>MaterialOtherwWettedParts</string>
+    <string>ControlValve.Status</string>
+    <string>ControlValve.StatusOfInfo</string>
+    <string>ControlValve.Comment</string>
+    <string>ActuatorType</string>
+    <string>Actuator_SCADA_inferface</string>
+    <string>Actuator_Manufacturer</string>
+    <string>Actuator_ModelNo</string>
+    <string>Failure</string>
+    <string>SV</string>
+    <string>Actuator_PosSwtDet</string>
+    <string>AvgPow</string>
+  </SelectList>
+</PnPQueryDefinition>

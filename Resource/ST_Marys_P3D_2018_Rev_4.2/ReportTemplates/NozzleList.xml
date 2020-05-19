@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PnPQueryDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OrderBy>
+    <PnPSortItem>
+      <SortDirection>Ascending</SortDirection>
+      <SortColumn>Nozzles.Tag</SortColumn>
+    </PnPSortItem>
+  </OrderBy>
+  <QuerySpecification xsi:type="PnPRelationshipQuerySpecification">
+    <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+      <Filter />
+      <TableName>Equipment</TableName>
+    </RightQuerySpecification>
+    <LeftQuerySpecification xsi:type="PnPRelationshipQuerySpecification">
+      <RightQuerySpecification xsi:type="PnPRelationshipQuerySpecification">
+        <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <Filter />
+          <TableName>PipeLineGroup</TableName>
+        </RightQuerySpecification>
+        <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <Filter />
+          <TableName>PipeLines</TableName>
+        </LeftQuerySpecification>
+        <RightRole>PipeLineGroup</RightRole>
+        <LeftRole>PipeLine</LeftRole>
+        <RelationshipTypes>
+          <string>PipeLineGroupRelationship</string>
+        </RelationshipTypes>
+      </RightQuerySpecification>
+      <LeftQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+        <RightQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+          <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+            <Filter />
+            <TableName>PnPDrawings</TableName>
+          </RightQuerySpecification>
+          <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+            <Filter />
+            <TableName>PnPDataLinks</TableName>
+          </LeftQuerySpecification>
+          <RightJoinColumns>
+            <string>PnPID</string>
+          </RightJoinColumns>
+          <LeftJoinColumns>
+            <string>DwgId</string>
+          </LeftJoinColumns>
+          <JoinOperation>LeftOuter</JoinOperation>
+        </RightQuerySpecification>
+        <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <Filter />
+          <TableName>Nozzles</TableName>
+        </LeftQuerySpecification>
+        <RightJoinColumns>
+          <string>RowId</string>
+        </RightJoinColumns>
+        <LeftJoinColumns>
+          <string>PnPID</string>
+        </LeftJoinColumns>
+        <JoinOperation>LeftOuter</JoinOperation>
+      </LeftQuerySpecification>
+      <RightRole>Line</RightRole>
+      <LeftRole>Nozzle</LeftRole>
+      <RelationshipTypes>
+        <string>LineNozzle</string>
+      </RelationshipTypes>
+    </LeftQuerySpecification>
+    <RightRole>Owner</RightRole>
+    <LeftRole>Owned</LeftRole>
+    <RelationshipTypes>
+      <string>AssetOwnership</string>
+    </RelationshipTypes>
+  </QuerySpecification>
+  <SelectList>
+    <string>Nozzles.Tag</string>
+    <string>Equipment.Tag</string>
+    <string>Size</string>
+    <string>Spec</string>
+    <string>LineNumber</string>
+    <string>Service</string>
+    <string>PnID</string>
+    <string>Dwg Name</string>
+    <string>PnPID</string>
+  </SelectList>
+</PnPQueryDefinition>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PnPQueryDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<OrderBy>
+		<PnPSortItem>
+			<SortDirection>Ascending</SortDirection>
+			<SortColumn>Tag</SortColumn>
+		</PnPSortItem>
+	</OrderBy>
+	<QuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+		<RightQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+			<RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+				<Filter/>
+				<TableName>PnPDrawings</TableName>
+			</RightQuerySpecification>
+			<LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+				<Filter/>
+				<TableName>PnPDataLinks</TableName>
+			</LeftQuerySpecification>
+			<RightJoinColumns>
+				<string>PnPID</string>
+			</RightJoinColumns>
+			<LeftJoinColumns>
+				<string>DwgId</string>
+			</LeftJoinColumns>
+			<JoinOperation>LeftOuter</JoinOperation>
+		</RightQuerySpecification>
+		<LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+			<Filter/>
+			<TableName>Equipment</TableName>
+		</LeftQuerySpecification>
+		<RightJoinColumns>
+			<string>RowId</string>
+		</RightJoinColumns>
+		<LeftJoinColumns>
+			<string>PnPID</string>
+		</LeftJoinColumns>
+		<JoinOperation>LeftOuter</JoinOperation>
+	</QuerySpecification>
+	<SelectList>
+		<string>Tag</string>
+		<string>Description</string>
+		<string>Manufacturer</string>
+		<string>ModelNumber</string>
+		<string>Supplier</string>
+		<string>EquipmentSpec</string>
+		<string>MaterialOfConstruction</string>
+		<string>Weight</string>
+		<string>PnID</string>
+		<string>Dwg Name</string>
+		<string>PnPID</string>
+	</SelectList>
+</PnPQueryDefinition>

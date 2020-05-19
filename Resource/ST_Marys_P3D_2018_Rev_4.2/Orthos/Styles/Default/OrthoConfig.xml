@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<OrthoConfigDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Default">
+  <Themes>
+    <Theme Name="Default">
+      <Symbols>
+        <LayerSchemes>
+          <LayerScheme Name="Centerlines" LocalDisplayName="Centerlines" Enabled="true" LayerName="CENTER" ToolTip="Piping centerlines" />
+          <LayerScheme Name="Equipment" LocalDisplayName="Equipment" Enabled="true" LayerName="EQUIP" ToolTip="Equipment" />
+          <LayerScheme Name="Existing Centerlines" LocalDisplayName="Existing Centerlines" Enabled="true" LayerName="EXIST_CENTER" ToolTip="Centerlines of existing piping" />
+          <LayerScheme Name="Existing Equipment" LocalDisplayName="Existing Equipment" Enabled="true" LayerName="EXIST_EQUIP" ToolTip="Existing Equipment" />
+          <LayerScheme Name="Existing Pipe Supports" LocalDisplayName="Existing Pipe Supports" Enabled="true" LayerName="EXIST_SUPPORTS" ToolTip="Existing Pipe Supports" />
+          <LayerScheme Name="Existing Piping Components" LocalDisplayName="Existing Piping Components" Enabled="true" LayerName="EXIST_PIPING" ToolTip="Existing Piping and components" />
+          <LayerScheme Name="Existing Steel" LocalDisplayName="Existing Steel" Enabled="true" LayerName="EXIST_STEEL" ToolTip="Existing Structural Steel" />
+          <LayerScheme Name="Hatching" LocalDisplayName="Hatching" Enabled="true" LayerName="HATCH" ToolTip="Hatching" />
+          <LayerScheme Name="Hidden Lines" LocalDisplayName="Hidden Lines" Enabled="true" LayerName="HIDDEN" ToolTip="Hidden Lines" />
+          <LayerScheme Name="Matchlines" LocalDisplayName="Matchlines" Enabled="true" LayerName="MATCHLINES" ToolTip="Matchlines" />
+          <LayerScheme Name="Misc" LocalDisplayName="Misc" Enabled="true" LayerName="MISC" ToolTip="General AutoCAD objects or miscellaneous model components that do not match any other mappings" />
+          <LayerScheme Name="Pipe Supports" LocalDisplayName="Pipe Supports" Enabled="true" LayerName="SUPPORTS" ToolTip="Pipe Supports" />
+          <LayerScheme Name="Piping" LocalDisplayName="Piping" Enabled="true" LayerName="PIPING" ToolTip="Piping and components" />
+          <LayerScheme Name="Small Bore Pipe Supports" LocalDisplayName="Small Bore Pipe Supports" Enabled="true" LayerName="SUPPORTS" Size="50" ToolTip="Small Bore Pipe Supports" />
+          <LayerScheme Name="Small Bore Piping" LocalDisplayName="Small Bore Piping" Enabled="true" LayerName="SMALLBORE" Size="50" ToolTip="Small Bore piping and components" />
+          <LayerScheme Name="Structural Steel" LocalDisplayName="Structural Steel" Enabled="true" LayerName="STEEL" ToolTip="Structural steel objects" />
+        </LayerSchemes>
+      </Symbols>
+      <BeUseLayerAsModel>true</BeUseLayerAsModel>
+      <ThemeContext>
+        <DimensionStyle>Standard</DimensionStyle>
+        <MultileaderStyle>Standard</MultileaderStyle>
+        <TextStyle>Standard</TextStyle>
+      </ThemeContext>
+    </Theme>
+  </Themes>
+</OrthoConfigDefinition>

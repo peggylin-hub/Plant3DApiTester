@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<!--Edit by Peggy Lin. Sydney Operation Center.-->
+<!--This IsoSkeyAcadBlockMap has tailor to match the need of West Camden WRP Biosolid Treatment Upgrade & Amplification project.-->
+<!--Job number: 21-21434-->
+<IsoSkeyMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="92.0" Name="Default">
+  <!-- Begin: Fittings -->
+	  <SkeyMap SKEY="EL??" AcadBlock="Elbow" />
+	  <SkeyMap SKEY="PB" AcadBlock="Bend" />
+  <SkeyMap SKEY="BE" AcadBlock="Bend" />
+  <SkeyMap SKEY="MI??" AcadBlock="BendMitre" />
+  <SkeyMap SKEY="EU??" AcadBlock="Elbow-180return" />
+	  <SkeyMap SKEY="EB??" AcadBlock="Elbow" />
+  <SkeyMap SKEY="ER??" AcadBlock="ElbowReducing" />
+  <SkeyMap SKEY="PB??" AcadBlock="Bend" />
+  <SkeyMap SKEY="BE??" AcadBlock="Elbow" />
+	  <SkeyMap SKEY="BU??" AcadBlock="Bend-180return" />
+  <SkeyMap SKEY="BU" AcadBlock="Bend-180return" />
+  <SkeyMap SKEY="TE??" AcadBlock="Tee" />
+	  <SkeyMap SKEY="BT??" AcadBlock="TeedBend" />
+  <SkeyMap SKEY="RC??" AcadBlock="ReducerConc" />
+	  <SkeyMap SKEY="CPBW" AcadBlock="ReducerConc" />
+	  <SkeyMap SKEY="CSBW" AcadBlock="ReducerConc" />
+	  <SkeyMap SKEY="ESBW" AcadBlock="ReducerEcc" />
+	  <SkeyMap SKEY="RE??" AcadBlock="ReducerEcc" />
+	  <SkeyMap SKEY="CS??" AcadBlock="ReducerConc" />
+  <SkeyMap SKEY="RB??" AcadBlock="ReducerConc" />
+  <SkeyMap SKEY="GASK" AcadBlock="Gasket" />
+	  <SkeyMap SKEY="FI??" AcadBlock="Filter-Strainer" />
+	  <SkeyMap SKEY="FA??" AcadBlock="Filter-Angle" />
+  <SkeyMap SKEY="CR??" AcadBlock="Cross" />
+	  <SkeyMap SKEY="TY??" AcadBlock="Wye" />
+	  <SkeyMap SKEY="UN??" AcadBlock="Union" />
+	  <SkeyMap SKEY="CO??" AcadBlock="Coupling" />
+	  <SkeyMap SKEY="COSC" AcadBlock="ScrewedCoupling" />
+	  <SkeyMap SKEY="CSCP" AcadBlock="Coupling-compression" />
+	  <SkeyMap SKEY="KABW" AcadBlock="Cap" />
+	  <SkeyMap SKEY="KASC" AcadBlock="ScrewedCap" />
+	  <SkeyMap SKEY="KASW" AcadBlock="ScrewedCap" />
+	  <SkeyMap SKEY="KAGL" AcadBlock="ScrewedCap" />
+  <SkeyMap SKEY="KAPF" AcadBlock="ScrewedCap" />
+  <SkeyMap SKEY="KACL" AcadBlock="ClampedCap" />
+  <SkeyMap SKEY="KAGF" AcadBlock="ClampedCap" />
+  <SkeyMap SKEY="NC??" AcadBlock="Placeholder" />
+	  <SkeyMap SKEY="NI??" AcadBlock="Nipolet" />
+	  <SkeyMap SKEY="NR??" AcadBlock="Nipple" />
+	  <SkeyMap SKEY="NB??" AcadBlock="NippleBS" />
+  <SkeyMap SKEY="OP" AcadBlock="Orifice-RestrictorPlate" />
+	  <SkeyMap SKEY="PR" AcadBlock="Orifice-RestrictorPlate" />
+	  <SkeyMap SKEY="PL" AcadBlock="Plug" />
+	  <SkeyMap SKEY="BM" AcadBlock="MaleBlankingPlug" />
+  <SkeyMap SKEY="SB" AcadBlock="Fig8Blind_Open" />
+	  <!--NOTE FROM PEGGY LIN: Non- OUT OF BOX SKEY, designed to suit bleeding ring fitting from GHD-SS catalog -->
+	  <!--Note from Peggy Lin: block "tapping" is added into the project templette -->	
+	  <SkeyMap SKEY="TPSW" AcadBlock="tapping" />
+	  <SkeyMap SKEY="BLFL" AcadBlock="Bellmouth" />
+	  <SkeyMap SKEY="NOFL" AcadBlock="Nozzle" />
+	  <!-- Note from damian: we also have Fig8Blind_Closed , but it also maps to SB - may need special handling  -->
+	  <SkeyMap SKEY="SP" AcadBlock="Blind" />
+	  <SkeyMap SKEY="SR" AcadBlock="Spacer" />
+  <SkeyMap SKEY="PF" AcadBlock="PipeBlock" />
+  <SkeyMap SKEY="TI??" AcadBlock="Trap" />
+  <SkeyMap SKEY="ADMM" AcadBlock="M_M_Adapt" />
+  <SkeyMap SKEY="ADMF" AcadBlock="M_F_Adapt" />
+  <SkeyMap SKEY="ET??" AcadBlock="ElbowTeed" />
+  <SkeyMap SKEY="MF??" AcadBlock="FixedPipe" />
+  <SkeyMap SKEY="FO??" AcadBlock="Filter-Offset" />
+  <!-- End: Fittings -->
+  <!-- Begin: Olets -->
+	  <SkeyMap SKEY="SKSW" AcadBlock="Olet1" />
+	  <SkeyMap SKEY="TH??" AcadBlock="Olet1" />
+	  <SkeyMap SKEY="WTBW" AcadBlock="Olet1" />
+	  <SkeyMap SKEY="HC??" AcadBlock="Olet-Half Coupling" />
+	  <SkeyMap SKEY="LA??" AcadBlock="Latrolet1" />
+  <SkeyMap SKEY="FE??" AcadBlock="Ferrule-Flared" />
+  <!-- End: Olets -->
+  <!-- Begin: Flanges -->
+	  <SkeyMap SKEY="FLSO" AcadBlock="Flange" />
+	  <SkeyMap SKEY="FOSO" AcadBlock="Flange" />
+	  <SkeyMap SKEY="FLSI" AcadBlock="Flange" />
+	  <SkeyMap SKEY="FLBL" AcadBlock="FlangeBlind" />
+	  <SkeyMap SKEY="FLGL" AcadBlock="FlangeScrewed" />
+  <SkeyMap SKEY="FLPF" AcadBlock="FlangeScrewed" />
+  <SkeyMap SKEY="FLSC" AcadBlock="Flange" />
+	  <SkeyMap SKEY="FLSW" AcadBlock="Flange" />
+	  <SkeyMap SKEY="FLRC" AcadBlock="Flange" />
+  <SkeyMap SKEY="FLWN" AcadBlock="FlangeWN" />
+	  <SkeyMap SKEY="FOWN" AcadBlock="FlangeWN" />
+	  <SkeyMap SKEY="FLFL" AcadBlock="Flange" />
+	  <SkeyMap SKEY="FLLB" AcadBlock="Flange-LJStub-End2" />
+	  <SkeyMap SKEY="FLSE" AcadBlock="Stub-End - 2" />
+	  <SkeyMap SKEY="FLGM" AcadBlock="Flange-Lined" />
+	  <!-- Note from Peggy Lin: Add a new Flange, Paddle Flange-->
+	  <SkeyMap SKEY="FLPD" AcadBlock="Flange" />
+	  <SkeyMap SKEY="DITH" AcadBlock="dimantling-thurst" />
+	  <SkeyMap SKEY="DINH" AcadBlock="dimantling-non-thurst" />
+  <SkeyMap SKEY="FLCL" AcadBlock="ClampedFlange" />
+  <!-- End: Flanges -->
+  <!-- Begin: Reference Dimension -->
+  <SkeyMap SKEY="BLD" AcadBlock="RefDimPhantom" />
+  <SkeyMap SKEY="BLD1" AcadBlock="RefDimShortCenterLine" />
+  <SkeyMap SKEY="BLD2" AcadBlock="RefDimPhantom" />
+  <SkeyMap SKEY="BLD3" AcadBlock="RefDimDottedLine" />
+  <SkeyMap SKEY="BLD4" AcadBlock="RefDimCenterLine" />
+  <SkeyMap SKEY="BLD5" AcadBlock="RefDimDashedLine" />
+  <SkeyMap SKEY="EQU" AcadBlock="RefDimPhantom" />
+  <SkeyMap SKEY="EQU1" AcadBlock="RefDimShortCenterLine" />
+  <SkeyMap SKEY="EQU2" AcadBlock="RefDimPhantom" />
+  <SkeyMap SKEY="EQU3" AcadBlock="RefDimDottedLine" />
+  <SkeyMap SKEY="EQU4" AcadBlock="RefDimCenterLine" />
+  <SkeyMap SKEY="EQU5" AcadBlock="RefDimDashedLine" />
+  <SkeyMap SKEY="FLR" AcadBlock="RefDimDottedLine" />
+  <SkeyMap SKEY="FLR1" AcadBlock="RefDimShortCenterLine" />
+  <SkeyMap SKEY="FLR2" AcadBlock="RefDimPhantom" />
+  <SkeyMap SKEY="FLR3" AcadBlock="RefDimDottedLine" />
+  <SkeyMap SKEY="FLR4" AcadBlock="RefDimCenterLine" />
+  <SkeyMap SKEY="FLR5" AcadBlock="RefDimDashedLine" />
+  <SkeyMap SKEY="GRD" AcadBlock="RefDimDottedLine" />
+  <SkeyMap SKEY="GRD1" AcadBlock="RefDimShortCenterLine" />
+  <SkeyMap SKEY="GRD2" AcadBlock="RefDimPhantom" />
+  <SkeyMap SKEY="GRD3" AcadBlock="RefDimDottedLine" />
+  <SkeyMap SKEY="GRD4" AcadBlock="RefDimCenterLine" />
+  <SkeyMap SKEY="GRD5" AcadBlock="RefDimDashedLine" />
+  <SkeyMap SKEY="HST" AcadBlock="RefDimShortCenterLine" />
+  <SkeyMap SKEY="HST1" AcadBlock="RefDimShortCenterLine" />
+  <SkeyMap SKEY="HST2" AcadBlock="RefDimPhantom" />
+  <SkeyMap SKEY="HST3" AcadBlock="RefDimDottedLine" />
+  <SkeyMap SKEY="HST4" AcadBlock="RefDimCenterLine" />
+  <SkeyMap SKEY="HST5" AcadBlock="RefDimDashedLine" />
+  <SkeyMap SKEY="PIP" AcadBlock="RefDimCenterLine" />
+  <SkeyMap SKEY="PIP1" AcadBlock="RefDimShortCenterLine" />
+  <SkeyMap SKEY="PIP2" AcadBlock="RefDimPhantom" />
+  <SkeyMap SKEY="PIP3" AcadBlock="RefDimDottedLine" />
+  <SkeyMap SKEY="PIP4" AcadBlock="RefDimCenterLine" />
+  <SkeyMap SKEY="PIP5" AcadBlock="RefDimDashedLine" />
+  <SkeyMap SKEY="VST" AcadBlock="RefDimShortCenterLine" />
+  <SkeyMap SKEY="VST1" AcadBlock="RefDimShortCenterLine" />
+  <SkeyMap SKEY="VST2" AcadBlock="RefDimPhantom" />
+  <SkeyMap SKEY="VST3" AcadBlock="RefDimDottedLine" />
+  <SkeyMap SKEY="VST4" AcadBlock="RefDimCenterLine" />
+  <SkeyMap SKEY="VST5" AcadBlock="RefDimDashedLine" />
+  <SkeyMap SKEY="WAL" AcadBlock="RefDimDottedLine" />
+  <SkeyMap SKEY="WAL1" AcadBlock="RefDimShortCenterLine" />
+  <SkeyMap SKEY="WAL2" AcadBlock="RefDimPhantom" />
+  <SkeyMap SKEY="WAL3" AcadBlock="RefDimDottedLine" />
+  <SkeyMap SKEY="WAL4" AcadBlock="RefDimCenterLine" />
+  <SkeyMap SKEY="WAL5" AcadBlock="RefDimDashedLine" />
+  <SkeyMap SKEY="XXX" AcadBlock="RefDimDashedLine" />
+  <SkeyMap SKEY="XXX1" AcadBlock="RefDimShortCenterLine" />
+  <SkeyMap SKEY="XXX2" AcadBlock="RefDimPhantom" />
+  <SkeyMap SKEY="XXX3" AcadBlock="RefDimDottedLine" />
+  <SkeyMap SKEY="XXX4" AcadBlock="RefDimCenterLine" />
+  <SkeyMap SKEY="XXX5" AcadBlock="RefDimDashedLine" />
+  <!-- End: Reference Dimension -->
+  <!-- Begin: Valves -->
+	  <SkeyMap SKEY="V3??" AcadBlock="3WayValve" />
+	  <SkeyMap SKEY="V4??" AcadBlock="4WayValve" />
+	  <SkeyMap SKEY="AR??" AcadBlock="ValveAngle" />
+	  <SkeyMap SKEY="CAFL" AcadBlock="ValveAngle" />
+	  <SkeyMap SKEY="RA??" AcadBlock="ValveAngle" />
+	  <SkeyMap SKEY="AV??" AcadBlock="ValveAngle" />
+	  <SkeyMap SKEY="VB??" AcadBlock="BallValve" />
+	  <SkeyMap SKEY="VY??" AcadBlock="ButterflyValve" />
+	  <SkeyMap SKEY="VK??" AcadBlock="ButterflyValve" />
+	  <SkeyMap SKEY="CK??" AcadBlock="CheckValve-Alt1" />
+	  <SkeyMap SKEY="VC??" AcadBlock="CheckValveArrowed" />
+	  <SkeyMap SKEY="VD??" AcadBlock="Diaphragm Valve" />
+	  <SkeyMap SKEY="VT??" AcadBlock="GateValve" />
+	  <SkeyMap SKEY="VV??" AcadBlock="GateValve" />
+	  <SkeyMap SKEY="CV??" AcadBlock="GateValve" />
+	  <SkeyMap SKEY="VS??" AcadBlock="GateValve" />
+	  <!-- Note from damian: VS?? needs OPERATOR_SLIDE operator  -->
+	  <SkeyMap SKEY="VG??" AcadBlock="GlobeValve" />
+	  <SkeyMap SKEY="VN??" AcadBlock="NeedleValve" />
+	  <SkeyMap SKEY="VP??" AcadBlock="GateValve" />
+	  <!-- Note from Peggy Lin: Added a new valve symbol  -->
+	  <SkeyMap SKEY="KV??" AcadBlock="KniftGateValve" />
+	  <SkeyMap SKEY="FP??" AcadBlock="FlapValve" />
+	<!--MANUAL KNIFT GATE VAVLE-->
+	  <SkeyMap SKEY="KM??" AcadBlock="KniftGateValve" />
+	  <SkeyMap SKEY="VU??" AcadBlock="GateValve" /><!--For Plug Valve-->
+  <SkeyMap SKEY="EX??" AcadBlock="ExpanBellows" />
+  <SkeyMap SKEY="VR??" AcadBlock="GateValve" />
+  <SkeyMap SKEY="ZB??" AcadBlock="ButterflyValve1" />
+  <SkeyMap SKEY="RV??" AcadBlock="ValveAngle" />
+  <SkeyMap SKEY="M3FL" AcadBlock="3WayValve" />
+  <SkeyMap SKEY="VZSC" AcadBlock="CapReliefValve" />
+  <!-- End: Valves -->
+
+  <!-- Begin: Multi-port Value -->
+  <!-- The actuator for multi-port valve is NOT shown by default -->
+  <!-- Add the following attribute if you want to show the actuator -->
+  <!-- AcadBlockActuator ="MPVActuator" -->
+  <!-- For example: -->
+  <!-- <SkeyMapMPV SKEY = "MD??" AcadBlockBody ="MPVBody" AcadBlockSpindle ="MPVSpindle" AcadBlockActuator ="MPVActuator"/> -->
+  <SkeyMapMPV SKEY="MD??" AcadBlockBody="MPVBody" AcadBlockSpindle="MPVSpindle" />
+  <SkeyMapMPV SKEY="MZ??" AcadBlockBody="MPVBody" AcadBlockSpindle="MPVSpindle" />
+  <!-- End: Multi-port Value -->
+  <!-- Begin: Valve Operators symbols -->
+	  <SkeyMap SKEY="01SP" AcadBlock="Operator_Hand1" />
+	  <SkeyMap SKEY="02SP" AcadBlock="Operator_Spring" />
+	  <SkeyMap SKEY="03SP" AcadBlock="Operator_Lever" />
+	  <SkeyMap SKEY="04SP" AcadBlock="Operator_Diaphragm" />
+	  <SkeyMap SKEY="05SP" AcadBlock="Operator_Hand1" />
+	  <SkeyMap SKEY="06SP" AcadBlock="Operator_Hand2" />
+	  <SkeyMap SKEY="07SP" AcadBlock="Operator_Plug" />
+	  <SkeyMap SKEY="08SP" AcadBlock="Operator_Slide" />
+	  <SkeyMap SKEY="09SP" AcadBlock="Operator_Alt1" />
+	  <SkeyMap SKEY="10SP" AcadBlock="Operator_Alt2" />
+	  <SkeyMap SKEY="11SP" AcadBlock="Operator_Alt3" />
+	  <SkeyMap SKEY="12SP" AcadBlock="Operator_Alt4" />
+	  <SkeyMap SKEY="13SP" AcadBlock="Operator_Diaphragm" />
+	  <SkeyMap SKEY="14SP" AcadBlock="Operator_Alt5" />
+	  <SkeyMap SKEY="15SP" AcadBlock="Operator_Alt6" />
+	  <!-- Note from Peggy Lin: New Operator symbol added-->
+	  <SkeyMap SKEY="16SP" AcadBlock="Operator_Piston" />
+	  <SkeyMap SKEY="17SP" AcadBlock="Operator_SOLENOID" />
+  <!-- End: Valve Operators symbols -->
+
+  <!-- Begin: Pipe Supports -->
+  <!-- The following pipe supports are mapped to the simple pipe support -->
+  <!-- support to facilitate testing. -->
+	  <SkeyMap SKEY="SUPP" AcadBlock="Support" />
+	  <SkeyMap SKEY="01HG" AcadBlock="Support-General" />
+	  <SkeyMap SKEY="ANCH" AcadBlock="Support-Anchor" />
+	  <SkeyMap SKEY="GUID" AcadBlock="Support-GUID" />
+	  <SkeyMap SKEY="SPRG" AcadBlock="Support-SpringHanger" />
+	  <!-- SkeyMap SKEY = "SPRG" AcadBlock ="Support-Spring"/ -->
+	  <SkeyMap SKEY="SUPP" AcadBlock="Support" />
+	  <SkeyMap SKEY="CLVT" AcadBlock="VictEnd" />
+  <SkeyMap SKEY="CLMP" AcadBlock="CLAMP" />
+	  <SkeyMap SKEY="DUCK" AcadBlock="Support-Leg1" />
+	  <SkeyMap SKEY="HANG" AcadBlock="Support-Hanger1" />
+	  <SkeyMap SKEY="SKID" AcadBlock="Support-SKID" />
+  <SkeyMap SKEY="PSIG" AcadBlock="Support-Secondary" />
+  <!-- End: Pipe Supports -->
+  <!-- Begin: Connections -->
+  <!-- IgnoredOnConnectionPoint: Default to false. True to indicate the end type can be ignored in connection point in pcf but it needs to be created in isometric anyway-->
+  <!-- OnFitting:Default to false.True to generate the end symbol anyway for the fitting even the fitting is not connected to other component(for example flange for flanged fitting).-->
+  <!-- ShowWeldDot:Default to false. True to generate one extra weld dot at the connection point (To Implement)-->
+	  <SkeyMap SKEY="END-CONNECTION-PIPELINE" AcadBlock="SplitMark" />
+	  <SkeyMap SKEY="END-CONNECTION-EQUIPMENT" AcadBlock="EndEquipment" />
+	  <SkeyMap SKEY="TAP-CONNECTION" AcadBlock="EndTapping" />
+	  <SkeyMap SKEY="ISO-SPLIT-POINT" AcadBlock="SplitMark" />
+	  <!-- 'OnFitting': 'true' or 'false' (default) -->
+  <!--     'true'  = Generate end type symbol(s) for unconnected connection point(s); -->
+  <!--               typically used for flanges or flanged fittings. -->
+  <!--     'false' = Do not generate end type symbol(s) for unconnected connection -->
+  <!--               point(s). -->
+  <EndTypeMap SKEY="WF" AcadBlock="FieldWeld" />
+	  <EndTypeMap SKEY="WS" AcadBlock="FieldWeld" />
+	  <EndTypeMap SKEY="WW" AcadBlock="Weld" />
+	  <EndTypeMap SKEY="BW" AcadBlock="Weld" />
+	  <EndTypeMap SKEY="SO" AcadBlock="Weld" IgnoredOnConnectionPoint="true" />
+	  <EndTypeMap SKEY="WN" AcadBlock="Weld" />
+	  <EndTypeMap SKEY="SJ" AcadBlock="Weld" />
+	  <EndTypeMap SKEY="SW" AcadBlock="SocketWeld" />
+	  <EndTypeMap SKEY="GL" AcadBlock="SocketWeld" IgnoredOnConnectionPoint="true" OnFitting="false" />
+	  <EndTypeMap SKEY="SC" AcadBlock="Thread" />
+	  <EndTypeMap SKEY="FL" AcadBlock="FittingFlange" OnFitting="true" />
+	  <EndTypeMap SKEY="FA" AcadBlock="FlareEnd" OnFitting="true" />
+  <!-- note from damian: may need to handle Gland end types 'GF' -->
+  <!-- End: Connections -->
+  <!-- Begin: Instrument symbols -->
+  <!-- type = INSTRUMENT -->
+	  <SkeyMap SKEY="IIBW" AcadBlock="Instrument-Inline" />
+	  <SkeyMap SKEY="IIDM" AcadBlock="METER-DENSITY" />
+	  <SkeyMap SKEY="IIFM" AcadBlock="METER-FLOW" />
+  <SkeyMap SKEY="ITFL" AcadBlock="Instrument-Tee" />
+  <SkeyMap SKEY="II??" AcadBlock="Instrument-Inline" />
+  <!-- End: Instrument symbols -->
+  <!-- Begin: Misc. symbols -->
+  <SkeyMap SKEY="FLOW" AcadBlock="FlowArrow" />
+  <SkeyMap SKEY="FLOR" AcadBlock="Floor_Symbol" />
+  <SkeyMap SKEY="RPAD" AcadBlock="ReinforcementPad" />
+  <!-- End : Misc. symbols -->
+  <!-- Begin: VALVE SKEY TO SPINDLE SKEY -->
+	  <ValveToSpindleSkeyMap ValveSKEY="AV??" SpindleSKEY="01SP" />
+	  <ValveToSpindleSkeyMap ValveSKEY="VV??" SpindleSKEY="01SP" />
+	  <ValveToSpindleSkeyMap ValveSKEY="VD??" SpindleSKEY="01SP" />
+	  <ValveToSpindleSkeyMap ValveSKEY="VG??" SpindleSKEY="01SP" />
+	  <ValveToSpindleSkeyMap ValveSKEY="VT??" SpindleSKEY="01SP" />
+	  <ValveToSpindleSkeyMap ValveSKEY="VS??" SpindleSKEY="01SP" />
+	  <ValveToSpindleSkeyMap ValveSKEY="V3??" SpindleSKEY="01SP" />
+	  <ValveToSpindleSkeyMap ValveSKEY="V4??" SpindleSKEY="01SP" />
+		<!-- Note from Peggy Lin:SpindleSKEY for Ball valve changed to new spindle. 16SP, this is a piston symbol -->
+		<!--ValveToSpindleSkeyMap ValveSKEY ="VB??" SpindleSKEY="13SP"/-->
+	  <ValveToSpindleSkeyMap ValveSKEY="VB??" SpindleSKEY="16SP" />
+	  <ValveToSpindleSkeyMap ValveSKEY="VY??" SpindleSKEY="13SP" />
+	  <ValveToSpindleSkeyMap ValveSKEY="Vk??" SpindleSKEY="03SP" />
+	  <ValveToSpindleSkeyMap ValveSKEY="VP??" SpindleSKEY="07SP" />
+	  <ValveToSpindleSkeyMap ValveSKEY="CV??" SpindleSKEY="13SP" />
+		<!-- Add 2 new Knife Gate valve mapping. Peggy Lin -->
+	  <ValveToSpindleSkeyMap ValveSKEY="KV??" SpindleSKEY="16SP" />
+	  <ValveToSpindleSkeyMap ValveSKEY="KM??" SpindleSKEY="01SP" />
+  <!-- End: VALVE SKEY TO SPINDLE SKEY -->
+
+  <!-- Begin: ASYMMETRIC COMPONENT LIST -->
+  <AsymmetricComponent Type="Flange" Skey="" EndType="FL" />
+  <AsymmetricComponent Type="COUPLING" Skey="FE??" EndType="TC" />
+  <!-- End: ASYMMETRIC COMPONENT LIST -->
+  <SkeyCLTextMap SKEY="BLD*" CLTEXT="BUILDING" />
+  <SkeyCLTextMap SKEY="EQU*" CLTEXT="CL EQUIPMENT" />
+  <SkeyCLTextMap SKEY="FLR*" CLTEXT="FLOOR" />
+  <SkeyCLTextMap SKEY="GRD*" CLTEXT="CL GRID" />
+  <SkeyCLTextMap SKEY="HST*" CLTEXT="CL BEAM" />
+  <SkeyCLTextMap SKEY="PIP*" CLTEXT="CL PIPE" />
+  <SkeyCLTextMap SKEY="VST*" CLTEXT="CL COLUMN" />
+  <SkeyCLTextMap SKEY="WAL*" CLTEXT="WALL" />
+</IsoSkeyMap>

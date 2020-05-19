@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PnPQueryDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OrderBy>
+    <PnPSortItem>
+      <SortDirection>Ascending</SortDirection>
+      <SortColumn>Tag</SortColumn>
+    </PnPSortItem>
+  </OrderBy>
+  <QuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+    <RightQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+      <RightQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+        <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <CorrelationName>PipingDrawingInfo</CorrelationName>
+          <Filter />
+          <TableQualifier>Piping</TableQualifier>
+          <TableName>PnPDrawings</TableName>
+        </RightQuerySpecification>
+        <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <CorrelationName />
+          <Filter />
+          <TableQualifier>Piping</TableQualifier>
+          <TableName>PnPDataLinks</TableName>
+        </LeftQuerySpecification>
+        <RightJoinColumns>
+          <string>PnPID</string>
+        </RightJoinColumns>
+        <LeftJoinColumns>
+          <string>DwgId</string>
+        </LeftJoinColumns>
+        <JoinOperation>LeftOuter</JoinOperation>
+      </RightQuerySpecification>
+      <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName>PipingEquipment</CorrelationName>
+        <Filter />
+        <TableQualifier>Piping</TableQualifier>
+        <TableName>Equipment</TableName>
+      </LeftQuerySpecification>
+      <RightJoinColumns>
+        <string>RowId</string>
+      </RightJoinColumns>
+      <LeftJoinColumns>
+        <string>PnPID</string>
+      </LeftJoinColumns>
+      <JoinOperation>LeftOuter</JoinOperation>
+    </RightQuerySpecification>
+    <LeftQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+      <RightQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+        <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <CorrelationName />
+          <Filter />
+          <TableQualifier />
+          <TableName>PnPDrawings</TableName>
+        </RightQuerySpecification>
+        <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <CorrelationName />
+          <Filter />
+          <TableQualifier />
+          <TableName>PnPDataLinks</TableName>
+        </LeftQuerySpecification>
+        <RightJoinColumns>
+          <string>PnPID</string>
+        </RightJoinColumns>
+        <LeftJoinColumns>
+          <string>DwgId</string>
+        </LeftJoinColumns>
+        <JoinOperation>LeftOuter</JoinOperation>
+      </RightQuerySpecification>
+      <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>Equipment</TableName>
+      </LeftQuerySpecification>
+      <RightJoinColumns>
+        <string>RowId</string>
+      </RightJoinColumns>
+      <LeftJoinColumns>
+        <string>PnPID</string>
+      </LeftJoinColumns>
+      <JoinOperation>LeftOuter</JoinOperation>
+    </LeftQuerySpecification>
+    <RightJoinColumns>
+      <string>Tag</string>
+    </RightJoinColumns>
+    <LeftJoinColumns>
+      <string>Tag</string>
+    </LeftJoinColumns>
+    <JoinOperation>LeftOuter</JoinOperation>
+  </QuerySpecification>
+  <DerivedProperties />
+  <SelectList>
+    <string>RevChanged</string>
+    <string>PnPID</string>
+    <string>DataSheetReference</string>
+    <string>FacilityNo</string>
+    <string>DrgNo</string>
+    <string>Tag</string>
+    <string>Type</string>
+    <string>AreaNo</string>
+    <string>SiteNo</string>
+    <string>Number</string>
+    <string>Vendor</string>
+    <string>ParentLoc</string>
+    <string>LocWIfacility</string>
+    <string>LocationDes</string>
+    <string>AssetDes</string>
+    <string>TelemetryMonitored</string>
+    <string>Manufacturer</string>
+    <string>ModelNumber</string>
+    <string>DutyPoints</string>
+    <string>EnergyMotorKw</string>
+    <string>AveragePower</string>
+    <string>OpHrPerDayAtAvePowerDraw</string>
+    <string>VSD</string>
+    <string>Comment</string>
+    <string>PreLocNo1</string>
+    <string>PreLocNo2</string>
+    <string>Status</string>
+    <string>StatusOfInfo</string>
+    <string>Motor1Rating</string>
+    <string>Motor1Type</string>
+    <string>Motor2Rating</string>
+    <string>Motor2Type</string>
+    <string>StarterType</string>
+  </SelectList>
+</PnPQueryDefinition>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PnPMap xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>P3D MODEL LINE GROUP</Name>
+  <ClassPropertyMaps>
+    <PnPClassMap>
+      <Name>P3dLineGroup</Name>
+      <ExternalObjectName>P3d Line Group</ExternalObjectName>
+      <PropertyPairCollection>
+        <PnPPropertyPair>
+          <Name>PnPID</Name>
+          <ExternalPropertyName>PnPID</ExternalPropertyName>
+          <ValueMaps />
+          <Used>true</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>AreaNo</Name>
+          <ExternalPropertyName>AreaNo</ExternalPropertyName>
+          <ValueMaps />
+          <Used>true</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>COG X</Name>
+          <ExternalPropertyName>Center of Gravity X</ExternalPropertyName>
+          <ValueMaps />
+          <Used>false</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>COG Y</Name>
+          <ExternalPropertyName>Center of Gravity Y</ExternalPropertyName>
+          <ValueMaps />
+          <Used>false</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>COG Z</Name>
+          <ExternalPropertyName>Center of Gravity Z</ExternalPropertyName>
+          <ValueMaps />
+          <Used>false</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>Comment</Name>
+          <ExternalPropertyName>Comment</ExternalPropertyName>
+          <ValueMaps />
+          <Used>false</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>Description</Name>
+          <ExternalPropertyName>Description</ExternalPropertyName>
+          <ValueMaps />
+          <Used>false</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>InsulationSpec</Name>
+          <ExternalPropertyName>Insulation Spec</ExternalPropertyName>
+          <ValueMaps />
+          <Used>true</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>InsulationThickness</Name>
+          <ExternalPropertyName>Insulation Thickness</ExternalPropertyName>
+          <ValueMaps />
+          <Used>true</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>InsulationType</Name>
+          <ExternalPropertyName>Insulation Type</ExternalPropertyName>
+          <ValueMaps />
+          <Used>true</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>Locked</Name>
+          <ExternalPropertyName>Locked Line Status</ExternalPropertyName>
+          <ValueMaps />
+          <Used>true</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>LockedBy</Name>
+          <ExternalPropertyName>Lock Change By</ExternalPropertyName>
+          <ValueMaps />
+          <Used>true</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>LockedTimestamp</Name>
+          <ExternalPropertyName>Lock Change At</ExternalPropertyName>
+          <ValueMaps />
+          <Used>true</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>NominalSize</Name>
+          <ExternalPropertyName>Nominal Size</ExternalPropertyName>
+          <ValueMaps />
+          <Used>true</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>NominalSpec</Name>
+          <ExternalPropertyName>Nominal Spec</ExternalPropertyName>
+          <ValueMaps />
+          <Used>true</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>Number</Name>
+          <ExternalPropertyName>Number</ExternalPropertyName>
+          <ValueMaps />
+          <Used>true</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>PIPElineDES</Name>
+          <ExternalPropertyName>Pipe Line Description</ExternalPropertyName>
+          <ValueMaps />
+          <Used>true</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>PnIDNo</Name>
+          <ExternalPropertyName>PnID Drawing Number</ExternalPropertyName>
+          <ValueMaps />
+          <Used>true</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>Service</Name>
+          <ExternalPropertyName>Service</ExternalPropertyName>
+          <ValueMaps />
+          <Used>true</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>Tag</Name>
+          <ExternalPropertyName>Tag</ExternalPropertyName>
+          <ValueMaps />
+          <Used>true</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>TracingSpec</Name>
+          <ExternalPropertyName>Tracing Spec</ExternalPropertyName>
+          <ValueMaps />
+          <Used>false</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>TracingType</Name>
+          <ExternalPropertyName>Tracing Type</ExternalPropertyName>
+          <ValueMaps />
+          <Used>false</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>Weight</Name>
+          <ExternalPropertyName>Weight</ExternalPropertyName>
+          <ValueMaps />
+          <Used>false</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+        <PnPPropertyPair>
+          <Name>WeightUnit</Name>
+          <ExternalPropertyName>Weight Unit</ExternalPropertyName>
+          <ValueMaps />
+          <Used>true</Used>
+          <SyncExtProperty>true</SyncExtProperty>
+          <IsCustom>false</IsCustom>
+        </PnPPropertyPair>
+      </PropertyPairCollection>
+      <UIDPropertyNames>
+        <string>PnPID</string>
+      </UIDPropertyNames>
+      <IsCustom>false</IsCustom>
+      <EnableSpecDriven>true</EnableSpecDriven>
+    </PnPClassMap>
+  </ClassPropertyMaps>
+  <Description />
+  <XmlFileName>P3D MODEL LINE GROUP.xml</XmlFileName>
+</PnPMap>

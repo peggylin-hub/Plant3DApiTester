@@ -1,0 +1,18 @@
+Drawing1.dwg
+user data:Trueapplication info? System.__ComObjectversion: AC1032OriginalFileVersion: AC1032======================================== db ========================================
+======================================== doc ========================================
+Name = Drawing1.dwg
+CommandInProgress = RETRIVE_PROJECT_DATA
+Window = Autodesk.AutoCAD.Windows.WindowOnHandle
+Editor = Autodesk.AutoCAD.EditorInput.Editor
+IsNamedDrawing = False
+IsActive = True
+IsReadOnly = False
+GraphicsManager = Autodesk.AutoCAD.GraphicsSystem.Manager
+UserData = System.Collections.Hashtable
+TransactionManager = Autodesk.AutoCAD.ApplicationServices.TransactionManager
+Database = Autodesk.AutoCAD.DatabaseServices.Database
+FormatForSave = Native
+AutoDelete = False
+IsDisposed = False
+UnmanagedObject = 2063513383120

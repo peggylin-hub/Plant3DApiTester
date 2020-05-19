@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PnPQueryDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <QuerySpecification xsi:type="PnPRelationshipQuerySpecification">
+    <RightQuerySpecification xsi:type="PnPRelationshipQuerySpecification">
+      <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>PipeLineGroup</TableName>
+      </RightQuerySpecification>
+      <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>PipeLines</TableName>
+      </LeftQuerySpecification>
+      <RightRole>PipeLineGroup</RightRole>
+      <LeftRole>PipeLine</LeftRole>
+      <RelationshipTypes>
+        <string>PipeLineGroupRelationship</string>
+      </RelationshipTypes>
+    </RightQuerySpecification>
+    <LeftQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+      <RightQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+        <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <CorrelationName />
+          <Filter />
+          <TableQualifier />
+          <TableName>PnPDrawings</TableName>
+        </RightQuerySpecification>
+        <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+          <CorrelationName />
+          <Filter />
+          <TableQualifier />
+          <TableName>PnPDataLinks</TableName>
+        </LeftQuerySpecification>
+        <RightJoinColumns>
+          <string>PnPID</string>
+        </RightJoinColumns>
+        <LeftJoinColumns>
+          <string>DwgId</string>
+        </LeftJoinColumns>
+        <JoinOperation>LeftOuter</JoinOperation>
+      </RightQuerySpecification>
+      <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>Instrumentation</TableName>
+      </LeftQuerySpecification>
+      <RightJoinColumns>
+        <string>RowId</string>
+      </RightJoinColumns>
+      <LeftJoinColumns>
+        <string>PnPID</string>
+      </LeftJoinColumns>
+      <JoinOperation>LeftOuter</JoinOperation>
+    </LeftQuerySpecification>
+    <RightRole>Line</RightRole>
+    <LeftRole>Asset</LeftRole>
+    <RelationshipTypes>
+      <string>LineInLineAsset</string>
+    </RelationshipTypes>
+  </QuerySpecification>
+  <DerivedProperties />
+  <SelectList>
+    <string>Instrumentation.Tag</string>
+    <string>PnID</string>
+    <string>Dwg Name</string>
+    <string>Instrumentation.Description</string>
+    <string>Instrumentation.Manufacturer</string>
+    <string>Instrumentation.ModelNumber</string>
+    <string>LoopNumber</string>
+    <string>LineNumber</string>
+    <string>PipeLines.Service</string>
+    <string>Size</string>
+    <string>Spec</string>
+    <string>Insulation</string>
+    <string>PnPID</string>
+  </SelectList>
+</PnPQueryDefinition>

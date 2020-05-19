@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ProjectName>ST_Marys_P3D_2018_Rev_4.2</ProjectName>
+  <ProjectDescription>SWC Project Template</ProjectDescription>
+  <GeneralSettings workHistory="eNoAutoPrompt" annotationOffsetDistance="1" />
+  <ProjectDirectories>
+    <SymbolsDirectory directoryName="" relativeDirectoryName="" uncDirectoryName="" />
+    <ProjectDirectory directoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2" relativeDirectoryName="." uncDirectoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2" />
+    <ProjectDwgDirectory directoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models" relativeDirectoryName="Plant 3D Models" uncDirectoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models" />
+    <ReportQueriesDirectory directoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates" relativeDirectoryName="ReportTemplates" uncDirectoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates" />
+    <ImportExportSettingsDirectory directoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\ImportExportSettings" relativeDirectoryName="ImportExportSettings" uncDirectoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\ImportExportSettings" />
+  </ProjectDirectories>
+  <ProjectFiles>
+    <DataCacheFile fileName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\Iso.dcf" relativeFileName="Iso.dcf" uncFileName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\Iso.dcf" />
+  </ProjectFiles>
+  <ProjectVersion>92</ProjectVersion>
+  <DrawingHistoryStatus>
+    <StatusItem>&lt;Unassigned&gt;</StatusItem>
+    <StatusItem>In progress</StatusItem>
+    <StatusItem>For review</StatusItem>
+    <StatusItem>Revision 1</StatusItem>
+    <StatusItem>Revision 2</StatusItem>
+    <StatusItem>Revision 3</StatusItem>
+    <StatusItem>Revision 4</StatusItem>
+    <StatusItem>Final</StatusItem>
+    <StatusItem>Archive</StatusItem>
+  </DrawingHistoryStatus>
+  <ProjectVersionMinor>0</ProjectVersionMinor>
+  <ProjectRules>
+    <ArrayOfPnPRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </ProjectRules>
+  <ProjectTriggers />
+  <ProjectDataViews />
+  <PnPDrawingFiles />
+</Project>

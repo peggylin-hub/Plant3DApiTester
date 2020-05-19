@@ -1,0 +1,9 @@
+ATTRIBUTES
+Attribute1 P3dLineGroup.Tag
+Attribute2 P3dLineGroup.PIPElineDES
+Attribute3 P3dLineGroup.PnIDNo
+
+BOM-ATTRIBUTES
+EngineeringItems.Schedule
+EngineeringItems.PressureClass
+EngineeringItems.Material

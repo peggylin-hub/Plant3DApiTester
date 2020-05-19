@@ -1,0 +1,786 @@
+C:\Users\LinP3\source\repos\Plant3DApiTester\Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA01\Mechanical\ST0011-PR-01-ME-EQUIPMENT.dwg
+Number of Plant element in Selection =8(1)Handle = 63340, handle string = F76C
+(1)ObjectId = (3040394640960), Id =(3040394640960), ClassID =4511223f-aead-4b30-a8e1-1329264f7ef7
+(1)rowId =435020
+(1)dbHandle = 63340, DwgId = 755
+(1)props = WBS_Level1, Value = LSCT
+(1)props = WBS_Level2, Value = ST0011
+(1)props = WBS_Level3, Value = 4020
+(1)props = WBS_Level4, Value = M
+(1)props = WBS_Level5, Value = 731
+(1)props = WBS_Level6, Value = A194520
+(1)props = WBS_Level7, Value = 0000137
+(1)props = PnPGuid, Value = 738ef3b0-9d9c-49de-91c1-8ce5e6b4746d
+======================================== (1)Part ========================================
+Rotation = 0
+ZAxis = (0,0,1)
+XAxis = (1,0,0)
+SymbolId = (3040394640896)
+AllSubParts = Autodesk.ProcessPower.PnP3dObjects.NozzleSubPartCollection
+NumSubParts = 0
+Ecs = ((1,0,0,229857.276432855),(0,1,0,-24841.416314054),(0,0,1,23276.9991699232),(0,0,0,1))
+CenterOfGravity = (221561.429670125,61426.1296602556,24435.611171368)
+IsUserCenterOfGravity = False
+PlacementLock = True
+Position = (229857.276432855,-24841.416314054,23276.9991699232)
+IsAnchored = True
+PartSizeProperties = Autodesk.ProcessPower.PnP3dObjects.PartSizeProperties
+EdgeStyleId = (0)
+FaceStyleId = (0)
+VisualStyleId = (0)
+ForceAnnoAllVisible = True
+BlockName = *Model_Space
+MaterialMapper = 
+MaterialId = (3040359055040)
+Material = ByLayer
+ReceiveShadows = True
+CastShadows = True
+Hyperlinks = Autodesk.AutoCAD.DatabaseServices.HyperLinkCollection
+CloneMeForDragging = True
+CompoundObjectTransform = ((1,0,0,229857.276432855),(0,1,0,-24841.416314054),(0,0,1,23276.9991699232),(0,0,0,1))
+GeometricExtents = ((218835.630316132,59960.1660687042,22669.9991699227),(224287.229024118,62892.0932518069,26201.2231728132))
+IsPlanar = False
+CollisionType = Solid
+LineWeight = ByLayer
+Visible = True
+LinetypeScale = 1
+LinetypeId = (3040359053648)
+Linetype = ByLayer
+LayerId = (3040394640320)
+Layer = ST0011_PR_01_ME_SLUDGE_SCREEN_SCREW_WASHER_No1
+PlotStyleNameId = ((0),PlotStyleNameByLayer)
+PlotStyleName = ByLayer
+Transparency = (0)
+EntityColor = Autodesk.AutoCAD.Colors.EntityColor
+ColorIndex = 256
+Color = BYLAYER
+BlockId = (3040359053808)
+PaperOrientation = NotApplicable
+Annotative = NotApplicable
+HasFields = False
+AcadObject = System.__ComObject
+ClassID = 4511223f-aead-4b30-a8e1-1329264f7ef7
+ObjectBirthVersion = AC1024,Release6
+HasSaveVersionOverride = False
+IsObjectIdsInFlux = False
+UndoFiler = 
+IsAProxy = False
+IsTransactionResident = True
+IsReallyClosing = False
+IsCancelling = False
+IsUndoing = False
+IsNotifying = False
+IsNewObject = False
+IsModifiedGraphics = False
+IsModifiedXData = False
+IsModified = False
+IsNotifyEnabled = False
+IsWriteEnabled = False
+IsReadEnabled = True
+IsErased = False
+IsEraseStatusToggled = False
+XData = 
+MergeStyle = Ignore
+ExtensionDictionary = (0)
+Drawable = Autodesk.ProcessPower.PnP3dObjects.Equipment
+Database = Autodesk.AutoCAD.DatabaseServices.Database
+Handle = F76C
+OwnerId = (3040359053808)
+ObjectId = (3040394640960)
+Id = (3040394640960)
+IsPersistent = True
+DrawStream = 
+Bounds = ((218835.630316132,59960.1660687042,22669.9991699227),(224287.229024118,62892.0932518069,26201.2231728132))
+DrawableType = Geometry
+AutoDelete = False
+IsDisposed = False
+UnmanagedObject = 3039879171328
+(1)GetType = Autodesk.ProcessPower.PnP3dObjects.Equipment
+(1)++++++++++++++++++++++++++++++++
+(2)Handle = 63332, handle string = F764
+(2)ObjectId = (3040394640832), Id =(3040394640832), ClassID =4511223f-aead-4b30-a8e1-1329264f7ef7
+(2)rowId =435028
+(2)dbHandle = 63332, DwgId = 755
+(2)props = WBS_Level1, Value = LSCT
+(2)props = WBS_Level2, Value = ST0011
+(2)props = WBS_Level3, Value = 4020
+(2)props = WBS_Level4, Value = M
+(2)props = WBS_Level5, Value = 731
+(2)props = WBS_Level6, Value = A194520
+(2)props = WBS_Level7, Value = 0000138
+(2)props = PnPGuid, Value = 8ff46788-db70-47ce-a6bd-3451ef0f2f74
+======================================== (2)Part ========================================
+Rotation = 0
+ZAxis = (0,0,1)
+XAxis = (1,0,0)
+SymbolId = (3040394640768)
+AllSubParts = Autodesk.ProcessPower.PnP3dObjects.NozzleSubPartCollection
+NumSubParts = 0
+Ecs = ((1,0,0,231329.659167123),(0,1,0,-28549.8107315659),(0,0,1,23276.9991699232),(0,0,0,1))
+CenterOfGravity = (223033.812404393,57717.7352427437,24435.611171368)
+IsUserCenterOfGravity = False
+PlacementLock = True
+Position = (231329.659167123,-28549.8107315659,23276.9991699232)
+IsAnchored = True
+PartSizeProperties = Autodesk.ProcessPower.PnP3dObjects.PartSizeProperties
+EdgeStyleId = (0)
+FaceStyleId = (0)
+VisualStyleId = (0)
+ForceAnnoAllVisible = True
+BlockName = *Model_Space
+MaterialMapper = 
+MaterialId = (3040359055040)
+Material = ByLayer
+ReceiveShadows = True
+CastShadows = True
+Hyperlinks = Autodesk.AutoCAD.DatabaseServices.HyperLinkCollection
+CloneMeForDragging = True
+CompoundObjectTransform = ((1,0,0,231329.659167123),(0,1,0,-28549.8107315659),(0,0,1,23276.9991699232),(0,0,0,1))
+GeometricExtents = ((220308.0130504,56251.7716511923,22669.9991699227),(225759.611758386,59183.698834295,26201.2231728132))
+IsPlanar = False
+CollisionType = Solid
+LineWeight = ByLayer
+Visible = True
+LinetypeScale = 1
+LinetypeId = (3040359053648)
+Linetype = ByLayer
+LayerId = (3040394640336)
+Layer = ST0011_PR_01_ME_SLUDGE_SCREEN_SCREW_WASHER_No2
+PlotStyleNameId = ((0),PlotStyleNameByLayer)
+PlotStyleName = ByLayer
+Transparency = (0)
+EntityColor = Autodesk.AutoCAD.Colors.EntityColor
+ColorIndex = 256
+Color = BYLAYER
+BlockId = (3040359053808)
+PaperOrientation = NotApplicable
+Annotative = NotApplicable
+HasFields = False
+AcadObject = System.__ComObject
+ClassID = 4511223f-aead-4b30-a8e1-1329264f7ef7
+ObjectBirthVersion = AC1024,Release6
+HasSaveVersionOverride = False
+IsObjectIdsInFlux = False
+UndoFiler = 
+IsAProxy = False
+IsTransactionResident = True
+IsReallyClosing = False
+IsCancelling = False
+IsUndoing = False
+IsNotifying = False
+IsNewObject = False
+IsModifiedGraphics = False
+IsModifiedXData = False
+IsModified = False
+IsNotifyEnabled = False
+IsWriteEnabled = False
+IsReadEnabled = True
+IsErased = False
+IsEraseStatusToggled = False
+XData = 
+MergeStyle = Ignore
+ExtensionDictionary = (0)
+Drawable = Autodesk.ProcessPower.PnP3dObjects.Equipment
+Database = Autodesk.AutoCAD.DatabaseServices.Database
+Handle = F764
+OwnerId = (3040359053808)
+ObjectId = (3040394640832)
+Id = (3040394640832)
+IsPersistent = True
+DrawStream = 
+Bounds = ((220308.0130504,56251.7716511923,22669.9991699227),(225759.611758386,59183.698834295,26201.2231728132))
+DrawableType = Geometry
+AutoDelete = False
+IsDisposed = False
+UnmanagedObject = 3039879170176
+(2)GetType = Autodesk.ProcessPower.PnP3dObjects.Equipment
+(2)++++++++++++++++++++++++++++++++
+(3)Handle = 63324, handle string = F75C
+(3)ObjectId = (3040394640704), Id =(3040394640704), ClassID =4511223f-aead-4b30-a8e1-1329264f7ef7
+(3)rowId =435006
+(3)dbHandle = 63324, DwgId = 755
+(3)props = WBS_Level1, Value = LSCT
+(3)props = WBS_Level2, Value = ST0011
+(3)props = WBS_Level3, Value = 4020
+(3)props = WBS_Level4, Value = M
+(3)props = WBS_Level5, Value = 731
+(3)props = WBS_Level6, Value = A194020
+(3)props = WBS_Level7, Value = 0000067
+(3)props = PnPGuid, Value = 26b9abcd-92bb-4602-b4ba-e3bb8097b5f6
+======================================== (3)Part ========================================
+Rotation = 0
+ZAxis = (0,0,1)
+XAxis = (1,0,0)
+SymbolId = (3040394640640)
+AllSubParts = Autodesk.ProcessPower.PnP3dObjects.NozzleSubPartCollection
+NumSubParts = 0
+Ecs = ((1,0,0,220668.540295359),(0,1,0,56888.8450055265),(0,0,1,25094.9628174842),(0,0,0,1))
+CenterOfGravity = (220668.540295359,56888.8450055265,24691.5929951482)
+IsUserCenterOfGravity = False
+PlacementLock = True
+Position = (220668.540295359,56888.8450055265,25094.9628174842)
+IsAnchored = True
+PartSizeProperties = Autodesk.ProcessPower.PnP3dObjects.PartSizeProperties
+EdgeStyleId = (0)
+FaceStyleId = (0)
+VisualStyleId = (0)
+ForceAnnoAllVisible = True
+BlockName = *Model_Space
+MaterialMapper = 
+MaterialId = (3040359055040)
+Material = ByLayer
+ReceiveShadows = True
+CastShadows = True
+Hyperlinks = Autodesk.AutoCAD.DatabaseServices.HyperLinkCollection
+CloneMeForDragging = True
+CompoundObjectTransform = ((1,0,0,220668.540295359),(0,1,0,56888.8450055265),(0,0,1,25094.9628174842),(0,0,0,1))
+GeometricExtents = ((220405.040295359,56625.3450055265,23994.9628174842),(220932.040295359,57152.3450055265,25388.2231728123))
+IsPlanar = False
+CollisionType = Solid
+LineWeight = ByLayer
+Visible = True
+LinetypeScale = 1
+LinetypeId = (3040359053648)
+Linetype = ByLayer
+LayerId = (3040394316160)
+Layer = ST0011_PR_01_ME_SLUDGE_SCREEN_BIN-1
+PlotStyleNameId = ((0),PlotStyleNameByLayer)
+PlotStyleName = ByLayer
+Transparency = (0)
+EntityColor = Autodesk.AutoCAD.Colors.EntityColor
+ColorIndex = 256
+Color = BYLAYER
+BlockId = (3040359053808)
+PaperOrientation = NotApplicable
+Annotative = NotApplicable
+HasFields = False
+AcadObject = System.__ComObject
+ClassID = 4511223f-aead-4b30-a8e1-1329264f7ef7
+ObjectBirthVersion = AC1024,Release6
+HasSaveVersionOverride = False
+IsObjectIdsInFlux = False
+UndoFiler = 
+IsAProxy = False
+IsTransactionResident = True
+IsReallyClosing = False
+IsCancelling = False
+IsUndoing = False
+IsNotifying = False
+IsNewObject = False
+IsModifiedGraphics = False
+IsModifiedXData = False
+IsModified = False
+IsNotifyEnabled = False
+IsWriteEnabled = False
+IsReadEnabled = True
+IsErased = False
+IsEraseStatusToggled = False
+XData = 
+MergeStyle = Ignore
+ExtensionDictionary = (0)
+Drawable = Autodesk.ProcessPower.PnP3dObjects.Equipment
+Database = Autodesk.AutoCAD.DatabaseServices.Database
+Handle = F75C
+OwnerId = (3040359053808)
+ObjectId = (3040394640704)
+Id = (3040394640704)
+IsPersistent = True
+DrawStream = 
+Bounds = ((220405.040295359,56625.3450055265,23994.9628174842),(220932.040295359,57152.3450055265,25388.2231728123))
+DrawableType = Geometry
+AutoDelete = False
+IsDisposed = False
+UnmanagedObject = 3039879168832
+(3)GetType = Autodesk.ProcessPower.PnP3dObjects.Equipment
+(3)++++++++++++++++++++++++++++++++
+(4)Handle = 63316, handle string = F754
+(4)ObjectId = (3040394640576), Id =(3040394640576), ClassID =4511223f-aead-4b30-a8e1-1329264f7ef7
+(4)rowId =435004
+(4)dbHandle = 63316, DwgId = 755
+(4)props = WBS_Level1, Value = LSCT
+(4)props = WBS_Level2, Value = ST0011
+(4)props = WBS_Level3, Value = 4020
+(4)props = WBS_Level4, Value = M
+(4)props = WBS_Level5, Value = 731
+(4)props = WBS_Level6, Value = A194020
+(4)props = WBS_Level7, Value = 0000066
+(4)props = PnPGuid, Value = 1d2a5674-1d15-4371-aa3f-3d20034514f6
+======================================== (4)Part ========================================
+Rotation = 0
+ZAxis = (0,0,1)
+XAxis = (1,0,0)
+SymbolId = (3040394640512)
+AllSubParts = Autodesk.ProcessPower.PnP3dObjects.NozzleSubPartCollection
+NumSubParts = 0
+Ecs = ((1,0,0,219192.264417246),(0,1,0,60607.0448306693),(0,0,1,25094.9628174842),(0,0,0,1))
+CenterOfGravity = (219192.264417246,60607.0448306693,24691.5929951482)
+IsUserCenterOfGravity = False
+PlacementLock = True
+Position = (219192.264417246,60607.0448306693,25094.9628174842)
+IsAnchored = True
+PartSizeProperties = Autodesk.ProcessPower.PnP3dObjects.PartSizeProperties
+EdgeStyleId = (0)
+FaceStyleId = (0)
+VisualStyleId = (0)
+ForceAnnoAllVisible = True
+BlockName = *Model_Space
+MaterialMapper = 
+MaterialId = (3040359055040)
+Material = ByLayer
+ReceiveShadows = True
+CastShadows = True
+Hyperlinks = Autodesk.AutoCAD.DatabaseServices.HyperLinkCollection
+CloneMeForDragging = True
+CompoundObjectTransform = ((1,0,0,219192.264417246),(0,1,0,60607.0448306693),(0,0,1,25094.9628174842),(0,0,0,1))
+GeometricExtents = ((218928.764417246,60343.5448306693,23994.9628174842),(219455.764417246,60870.5448306693,25388.2231728123))
+IsPlanar = False
+CollisionType = Solid
+LineWeight = ByLayer
+Visible = True
+LinetypeScale = 1
+LinetypeId = (3040359053648)
+Linetype = ByLayer
+LayerId = (3040394316160)
+Layer = ST0011_PR_01_ME_SLUDGE_SCREEN_BIN-1
+PlotStyleNameId = ((0),PlotStyleNameByLayer)
+PlotStyleName = ByLayer
+Transparency = (0)
+EntityColor = Autodesk.AutoCAD.Colors.EntityColor
+ColorIndex = 256
+Color = BYLAYER
+BlockId = (3040359053808)
+PaperOrientation = NotApplicable
+Annotative = NotApplicable
+HasFields = False
+AcadObject = System.__ComObject
+ClassID = 4511223f-aead-4b30-a8e1-1329264f7ef7
+ObjectBirthVersion = AC1024,Release6
+HasSaveVersionOverride = False
+IsObjectIdsInFlux = False
+UndoFiler = 
+IsAProxy = False
+IsTransactionResident = True
+IsReallyClosing = False
+IsCancelling = False
+IsUndoing = False
+IsNotifying = False
+IsNewObject = False
+IsModifiedGraphics = False
+IsModifiedXData = False
+IsModified = False
+IsNotifyEnabled = False
+IsWriteEnabled = False
+IsReadEnabled = True
+IsErased = False
+IsEraseStatusToggled = False
+XData = 
+MergeStyle = Ignore
+ExtensionDictionary = (0)
+Drawable = Autodesk.ProcessPower.PnP3dObjects.Equipment
+Database = Autodesk.AutoCAD.DatabaseServices.Database
+Handle = F754
+OwnerId = (3040359053808)
+ObjectId = (3040394640576)
+Id = (3040394640576)
+IsPersistent = True
+DrawStream = 
+Bounds = ((218928.764417246,60343.5448306693,23994.9628174842),(219455.764417246,60870.5448306693,25388.2231728123))
+DrawableType = Geometry
+AutoDelete = False
+IsDisposed = False
+UnmanagedObject = 3039879170080
+(4)GetType = Autodesk.ProcessPower.PnP3dObjects.Equipment
+(4)++++++++++++++++++++++++++++++++
+(5)Handle = 59483, handle string = E85B
+(5)ObjectId = (3040394599344), Id =(3040394599344), ClassID =4511223f-aead-4b30-a8e1-1329264f7ef7
+(5)rowId =346600
+(5)dbHandle = 59483, DwgId = 755
+(5)props = WBS_Level1, Value = LSCT
+(5)props = WBS_Level2, Value = ST0011
+(5)props = WBS_Level3, Value = 4020
+(5)props = WBS_Level4, Value = M
+(5)props = WBS_Level5, Value = 731
+(5)props = WBS_Level6, Value = A193510
+(5)props = WBS_Level7, Value = 0000134
+(5)props = PnPGuid, Value = 60e98899-99cc-4255-8476-4d73dd521fe8
+======================================== (5)Part ========================================
+Rotation = 0
+ZAxis = (0,0,1)
+XAxis = (1,0,0)
+SymbolId = (3040394599296)
+AllSubParts = Autodesk.ProcessPower.PnP3dObjects.NozzleSubPartCollection
+NumSubParts = 0
+Ecs = ((1,0,0,225381.473223466),(0,1,0,-20863.6193055121),(0,0,1,23981.1842872754),(0,0,0,1))
+CenterOfGravity = (217400.057987515,60433.2801464271,23588.3102055502)
+IsUserCenterOfGravity = False
+PlacementLock = True
+Position = (225381.473223466,-20863.6193055121,23981.1842872754)
+IsAnchored = True
+PartSizeProperties = Autodesk.ProcessPower.PnP3dObjects.PartSizeProperties
+EdgeStyleId = (0)
+FaceStyleId = (0)
+VisualStyleId = (0)
+ForceAnnoAllVisible = True
+BlockName = *Model_Space
+MaterialMapper = 
+MaterialId = (3040359055040)
+Material = ByLayer
+ReceiveShadows = True
+CastShadows = True
+Hyperlinks = Autodesk.AutoCAD.DatabaseServices.HyperLinkCollection
+CloneMeForDragging = True
+CompoundObjectTransform = ((1,0,0,225381.473223466),(0,1,0,-20863.6193055121),(0,0,1,23981.1842872754),(0,0,0,1))
+GeometricExtents = ((214120.187188014,57594.7714398122,22260.1042036874),(220679.928787016,63271.7888530421,24916.516207413))
+IsPlanar = False
+CollisionType = Solid
+LineWeight = ByLayer
+Visible = True
+LinetypeScale = 1
+LinetypeId = (3040359053648)
+Linetype = ByLayer
+LayerId = (3040394316160)
+Layer = ST0011_PR_01_ME_SLUDGE_SCREEN_BIN-1
+PlotStyleNameId = ((0),PlotStyleNameByLayer)
+PlotStyleName = ByLayer
+Transparency = (0)
+EntityColor = Autodesk.AutoCAD.Colors.EntityColor
+ColorIndex = 256
+Color = BYLAYER
+BlockId = (3040359053808)
+PaperOrientation = NotApplicable
+Annotative = NotApplicable
+HasFields = False
+AcadObject = System.__ComObject
+ClassID = 4511223f-aead-4b30-a8e1-1329264f7ef7
+ObjectBirthVersion = AC1024,Release6
+HasSaveVersionOverride = False
+IsObjectIdsInFlux = False
+UndoFiler = 
+IsAProxy = False
+IsTransactionResident = True
+IsReallyClosing = False
+IsCancelling = False
+IsUndoing = False
+IsNotifying = False
+IsNewObject = False
+IsModifiedGraphics = False
+IsModifiedXData = False
+IsModified = False
+IsNotifyEnabled = False
+IsWriteEnabled = False
+IsReadEnabled = True
+IsErased = False
+IsEraseStatusToggled = False
+XData = 
+MergeStyle = Ignore
+ExtensionDictionary = (0)
+Drawable = Autodesk.ProcessPower.PnP3dObjects.Equipment
+Database = Autodesk.AutoCAD.DatabaseServices.Database
+Handle = E85B
+OwnerId = (3040359053808)
+ObjectId = (3040394599344)
+Id = (3040394599344)
+IsPersistent = True
+DrawStream = 
+Bounds = ((214120.187188014,57594.7714398122,22260.1042036874),(220679.928787016,63271.7888530421,24916.516207413))
+DrawableType = Geometry
+AutoDelete = False
+IsDisposed = False
+UnmanagedObject = 3039879170224
+(5)GetType = Autodesk.ProcessPower.PnP3dObjects.Equipment
+(5)++++++++++++++++++++++++++++++++
+(6)Handle = 27675, handle string = 6C1B
+(6)ObjectId = (3040394345520), Id =(3040394345520), ClassID =4511223f-aead-4b30-a8e1-1329264f7ef7
+(6)rowId =275330
+(6)dbHandle = 27675, DwgId = 755
+(6)props = WBS_Level1, Value = LSCT
+(6)props = WBS_Level2, Value = ST0011
+(6)props = WBS_Level3, Value = 4020
+(6)props = WBS_Level4, Value = M
+(6)props = WBS_Level5, Value = 731
+(6)props = WBS_Level6, Value = A194018
+(6)props = WBS_Level7, Value = 0093000
+(6)props = PnPGuid, Value = a1d45ff2-177f-4974-abb2-dd9d3ad13ff1
+======================================== (6)Part ========================================
+Rotation = 0
+ZAxis = (0,0,1)
+XAxis = (1,0,0)
+SymbolId = (3040394345408)
+AllSubParts = Autodesk.ProcessPower.PnP3dObjects.NozzleSubPartCollection
+NumSubParts = 0
+Ecs = ((1,0,0,223029.132379139),(0,1,0,-29869.2416291202),(0,0,1,22669.9420983006),(0,0,0,1))
+CenterOfGravity = (216650.922838814,54203.5016510564,22669.9420983006)
+IsUserCenterOfGravity = False
+PlacementLock = True
+Position = (223029.132379139,-29869.2416291202,22669.9420983006)
+IsAnchored = True
+PartSizeProperties = Autodesk.ProcessPower.PnP3dObjects.PartSizeProperties
+EdgeStyleId = (0)
+FaceStyleId = (0)
+VisualStyleId = (0)
+ForceAnnoAllVisible = True
+BlockName = *Model_Space
+MaterialMapper = 
+MaterialId = (3040359055040)
+Material = ByLayer
+ReceiveShadows = True
+CastShadows = True
+Hyperlinks = Autodesk.AutoCAD.DatabaseServices.HyperLinkCollection
+CloneMeForDragging = True
+CompoundObjectTransform = ((1,0,0,223029.132379139),(0,1,0,-29869.2416291202),(0,0,1,22669.9420983006),(0,0,0,1))
+GeometricExtents = ((216379.252759391,53842.5292251853,22644.5887628636),(216922.592918238,54564.4740769275,22695.2954337376))
+IsPlanar = False
+CollisionType = Solid
+LineWeight = ByLayer
+Visible = True
+LinetypeScale = 1
+LinetypeId = (3040359053648)
+Linetype = ByLayer
+LayerId = (3040394345136)
+Layer = 50-FW-B4-292
+PlotStyleNameId = ((0),PlotStyleNameByLayer)
+PlotStyleName = ByLayer
+Transparency = (0)
+EntityColor = Autodesk.AutoCAD.Colors.EntityColor
+ColorIndex = 256
+Color = BYLAYER
+BlockId = (3040359053808)
+PaperOrientation = NotApplicable
+Annotative = NotApplicable
+HasFields = False
+AcadObject = System.__ComObject
+ClassID = 4511223f-aead-4b30-a8e1-1329264f7ef7
+ObjectBirthVersion = AC1024,Release6
+HasSaveVersionOverride = False
+IsObjectIdsInFlux = False
+UndoFiler = 
+IsAProxy = False
+IsTransactionResident = True
+IsReallyClosing = False
+IsCancelling = False
+IsUndoing = False
+IsNotifying = False
+IsNewObject = False
+IsModifiedGraphics = False
+IsModifiedXData = False
+IsModified = False
+IsNotifyEnabled = False
+IsWriteEnabled = False
+IsReadEnabled = True
+IsErased = False
+IsEraseStatusToggled = False
+XData = 
+MergeStyle = Ignore
+ExtensionDictionary = (0)
+Drawable = Autodesk.ProcessPower.PnP3dObjects.Equipment
+Database = Autodesk.AutoCAD.DatabaseServices.Database
+Handle = 6C1B
+OwnerId = (3040359053808)
+ObjectId = (3040394345520)
+Id = (3040394345520)
+IsPersistent = True
+DrawStream = 
+Bounds = ((216379.252759391,53842.5292251853,22644.5887628636),(216922.592918238,54564.4740769275,22695.2954337376))
+DrawableType = Geometry
+AutoDelete = False
+IsDisposed = False
+UnmanagedObject = 3039879165760
+(6)GetType = Autodesk.ProcessPower.PnP3dObjects.Equipment
+(6)++++++++++++++++++++++++++++++++
+(7)Handle = 27664, handle string = 6C10
+(7)ObjectId = (3040394345344), Id =(3040394345344), ClassID =4511223f-aead-4b30-a8e1-1329264f7ef7
+(7)rowId =275319
+(7)dbHandle = 27664, DwgId = 755
+(7)props = WBS_Level1, Value = LSCT
+(7)props = WBS_Level2, Value = ST0011
+(7)props = WBS_Level3, Value = 4020
+(7)props = WBS_Level4, Value = M
+(7)props = WBS_Level5, Value = 731
+(7)props = WBS_Level6, Value = A194018
+(7)props = WBS_Level7, Value = 0094000
+(7)props = PnPGuid, Value = 7d9ce612-b0f7-4d1b-86ac-49ba6a12bf95
+======================================== (7)Part ========================================
+Rotation = 0
+ZAxis = (0,0,1)
+XAxis = (1,0,0)
+SymbolId = (3040394345232)
+AllSubParts = Autodesk.ProcessPower.PnP3dObjects.NozzleSubPartCollection
+NumSubParts = 0
+Ecs = ((1,0,0,221553.456820091),(0,1,0,-26149.7790984106),(0,0,1,22669.9446769672),(0,0,0,1))
+CenterOfGravity = (215175.247279766,57922.964181766,22669.9446769672)
+IsUserCenterOfGravity = False
+PlacementLock = True
+Position = (221553.456820091,-26149.7790984106,22669.9446769672)
+IsAnchored = True
+PartSizeProperties = Autodesk.ProcessPower.PnP3dObjects.PartSizeProperties
+EdgeStyleId = (0)
+FaceStyleId = (0)
+VisualStyleId = (0)
+ForceAnnoAllVisible = True
+BlockName = *Model_Space
+MaterialMapper = 
+MaterialId = (3040359055040)
+Material = ByLayer
+ReceiveShadows = True
+CastShadows = True
+Hyperlinks = Autodesk.AutoCAD.DatabaseServices.HyperLinkCollection
+CloneMeForDragging = True
+CompoundObjectTransform = ((1,0,0,221553.456820091),(0,1,0,-26149.7790984106),(0,0,1,22669.9446769672),(0,0,0,1))
+GeometricExtents = ((214903.577200342,57561.9917558949,22644.5913415302),(215446.917359189,58283.9366076371,22695.2980124042))
+IsPlanar = False
+CollisionType = Solid
+LineWeight = ByLayer
+Visible = True
+LinetypeScale = 1
+LinetypeId = (3040359053648)
+Linetype = ByLayer
+LayerId = (3040394345136)
+Layer = 50-FW-B4-292
+PlotStyleNameId = ((0),PlotStyleNameByLayer)
+PlotStyleName = ByLayer
+Transparency = (0)
+EntityColor = Autodesk.AutoCAD.Colors.EntityColor
+ColorIndex = 256
+Color = BYLAYER
+BlockId = (3040359053808)
+PaperOrientation = NotApplicable
+Annotative = NotApplicable
+HasFields = False
+AcadObject = System.__ComObject
+ClassID = 4511223f-aead-4b30-a8e1-1329264f7ef7
+ObjectBirthVersion = AC1024,Release6
+HasSaveVersionOverride = False
+IsObjectIdsInFlux = False
+UndoFiler = 
+IsAProxy = False
+IsTransactionResident = True
+IsReallyClosing = False
+IsCancelling = False
+IsUndoing = False
+IsNotifying = False
+IsNewObject = False
+IsModifiedGraphics = False
+IsModifiedXData = False
+IsModified = False
+IsNotifyEnabled = False
+IsWriteEnabled = False
+IsReadEnabled = True
+IsErased = False
+IsEraseStatusToggled = False
+XData = 
+MergeStyle = Ignore
+ExtensionDictionary = (0)
+Drawable = Autodesk.ProcessPower.PnP3dObjects.Equipment
+Database = Autodesk.AutoCAD.DatabaseServices.Database
+Handle = 6C10
+OwnerId = (3040359053808)
+ObjectId = (3040394345344)
+Id = (3040394345344)
+IsPersistent = True
+DrawStream = 
+Bounds = ((214903.577200342,57561.9917558949,22644.5913415302),(215446.917359189,58283.9366076371,22695.2980124042))
+DrawableType = Geometry
+AutoDelete = False
+IsDisposed = False
+UnmanagedObject = 3039879167440
+(7)GetType = Autodesk.ProcessPower.PnP3dObjects.Equipment
+(7)++++++++++++++++++++++++++++++++
+(8)Handle = 21850, handle string = 555A
+(8)ObjectId = (3040394313376), Id =(3040394313376), ClassID =4511223f-aead-4b30-a8e1-1329264f7ef7
+(8)rowId =269459
+(8)dbHandle = 21850, DwgId = 755
+(8)props = WBS_Level1, Value = LSCT
+(8)props = WBS_Level2, Value = ST0011
+(8)props = WBS_Level3, Value = 4020
+(8)props = WBS_Level4, Value = M
+(8)props = WBS_Level5, Value = 731
+(8)props = WBS_Level6, Value = A193510
+(8)props = WBS_Level7, Value = 0000135
+(8)props = PnPGuid, Value = ff210627-8f2b-4dad-b92f-eaa54a691e38
+======================================== (8)Part ========================================
+Rotation = 0
+ZAxis = (0,0,1)
+XAxis = (1,0,0)
+SymbolId = (3040394313312)
+AllSubParts = Autodesk.ProcessPower.PnP3dObjects.NozzleSubPartCollection
+NumSubParts = 0
+Ecs = ((1,0,0,223497.63437764),(0,1,0,-29695.0541158189),(0,0,1,22275.0006347637),(0,0,0,1))
+CenterOfGravity = (219228.120821183,55829.0574470891,23592.7736009382)
+IsUserCenterOfGravity = False
+PlacementLock = True
+Position = (223497.63437764,-29695.0541158189,22275.0006347637)
+IsAnchored = True
+PartSizeProperties = Autodesk.ProcessPower.PnP3dObjects.PartSizeProperties
+EdgeStyleId = (0)
+FaceStyleId = (0)
+VisualStyleId = (0)
+ForceAnnoAllVisible = True
+BlockName = *Model_Space
+MaterialMapper = 
+MaterialId = (3040359055040)
+Material = ByLayer
+ReceiveShadows = True
+CastShadows = True
+Hyperlinks = Autodesk.AutoCAD.DatabaseServices.HyperLinkCollection
+CloneMeForDragging = True
+CompoundObjectTransform = ((1,0,0,223497.63437764),(0,1,0,-29695.0541158189),(0,0,1,22275.0006347637),(0,0,0,1))
+GeometricExtents = ((215937.736762732,52964.0696804492,22265.0006347632),(222518.504879635,58694.045213729,24920.5465671133))
+IsPlanar = False
+CollisionType = Solid
+LineWeight = ByLayer
+Visible = True
+LinetypeScale = 1
+LinetypeId = (3040359053648)
+Linetype = ByLayer
+LayerId = (3040394317152)
+Layer = ST0011_PR_01_ME_SLUDGE_SCREEN_BIN-2
+PlotStyleNameId = ((0),PlotStyleNameByLayer)
+PlotStyleName = ByLayer
+Transparency = (0)
+EntityColor = Autodesk.AutoCAD.Colors.EntityColor
+ColorIndex = 256
+Color = BYLAYER
+BlockId = (3040359053808)
+PaperOrientation = NotApplicable
+Annotative = NotApplicable
+HasFields = False
+AcadObject = System.__ComObject
+ClassID = 4511223f-aead-4b30-a8e1-1329264f7ef7
+ObjectBirthVersion = AC1024,Release6
+HasSaveVersionOverride = False
+IsObjectIdsInFlux = False
+UndoFiler = 
+IsAProxy = False
+IsTransactionResident = True
+IsReallyClosing = False
+IsCancelling = False
+IsUndoing = False
+IsNotifying = False
+IsNewObject = False
+IsModifiedGraphics = False
+IsModifiedXData = False
+IsModified = False
+IsNotifyEnabled = False
+IsWriteEnabled = False
+IsReadEnabled = True
+IsErased = False
+IsEraseStatusToggled = False
+XData = 
+MergeStyle = Ignore
+ExtensionDictionary = (0)
+Drawable = Autodesk.ProcessPower.PnP3dObjects.Equipment
+Database = Autodesk.AutoCAD.DatabaseServices.Database
+Handle = 555A
+OwnerId = (3040359053808)
+ObjectId = (3040394313376)
+Id = (3040394313376)
+IsPersistent = True
+DrawStream = 
+Bounds = ((215937.736762732,52964.0696804492,22265.0006347632),(222518.504879635,58694.045213729,24920.5465671133))
+DrawableType = Geometry
+AutoDelete = False
+IsDisposed = False
+UnmanagedObject = 3039879166672
+(8)GetType = Autodesk.ProcessPower.PnP3dObjects.Equipment
+(8)++++++++++++++++++++++++++++++++
+Number of Plant element in drawing =9

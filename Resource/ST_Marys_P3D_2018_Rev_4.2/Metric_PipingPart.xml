@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ProjectName>ST_Marys_P3D_2018_Rev_4.2</ProjectName>
+  <ProjectDescription>ST MARYS WRP</ProjectDescription>
+  <GeneralSettings workHistory="eNoAutoPrompt" annotationOffsetDistance="1" />
+  <ProjectDirectories>
+    <SymbolsDirectory directoryName="" relativeDirectoryName="" uncDirectoryName="" />
+    <ProjectDirectory directoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2" relativeDirectoryName="." uncDirectoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2" />
+    <ProjectDwgDirectory directoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models" relativeDirectoryName="Plant 3D Models" uncDirectoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models" />
+    <ToolPaletteDirectory directoryName="C:\Program Files\Autodesk\AutoCAD 2014\PLNT3D\UserDataCache\Support\ToolPalette" relativeDirectoryName="" uncDirectoryName="" />
+    <ReportQueriesDirectory directoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates" relativeDirectoryName="ReportTemplates" uncDirectoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates" />
+    <ImportExportSettingsDirectory directoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\ImportExportSettings" relativeDirectoryName="ImportExportSettings" uncDirectoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\ImportExportSettings" />
+    <SpecSheetsDirectory directoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\Spec Sheets" relativeDirectoryName="Spec Sheets" uncDirectoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\Spec Sheets" />
+    <EquipmentSnapshotDirectory directoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\Equipment Templates" relativeDirectoryName="Equipment Templates" uncDirectoryName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\Equipment Templates" />
+  </ProjectDirectories>
+  <ProjectFiles>
+    <DataCacheFile fileName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\Piping.dcf" relativeFileName="Piping.dcf" uncFileName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\Piping.dcf" />
+    <ProjectDwtTemplateFile fileName="C:\_AAJV_SWC_Support_Folder\Plant 3D ISO -Color Dependent Plot Styles.dwt" relativeFileName="..\..\..\..\..\..\..\..\_AAJV_SWC_Support_Folder\Plant 3D ISO -Color Dependent Plot Styles.dwt" uncFileName="" />
+    <ConnectorsConfigFile fileName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\DefaultConnectorsConfig.xml" relativeFileName="DefaultConnectorsConfig.xml" uncFileName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\DefaultConnectorsConfig.xml" />
+    <PipeBendConfigFile fileName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\Metric_PipeBendDefaultValues.txt" relativeFileName="Metric_PipeBendDefaultValues.txt" uncFileName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\Metric_PipeBendDefaultValues.txt" />
+    <SymbolAndStyleCacheFile fileName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\projSymbolStyle.dwg" relativeFileName="projSymbolStyle.dwg" uncFileName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\projSymbolStyle.dwg" />
+  </ProjectFiles>
+  <ProjectVersion>92</ProjectVersion>
+  <ProjectRules>
+    <ArrayOfPnPRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <PnPRule xsi:type="PnPPropertyAcquisitionRule">
+        <Name>PipeRunComponent.LineNumberTag_PnPPropertyAcquisitionRule</Name>
+        <Classname>PipeRunComponent</Classname>
+        <Operator xsi:type="PnPAnyRelatedTableColumn">
+          <TableName>P3dLineGroup</TableName>
+          <ColumnName>Tag</ColumnName>
+        </Operator>
+        <InitializeOnly>false</InitializeOnly>
+        <NotOverridable>true</NotOverridable>
+        <ColumnName>LineNumberTag</ColumnName>
+      </PnPRule>
+      <PnPRule xsi:type="PnPPropertyAcquisitionRule">
+        <Name>PipeRunComponent.InsulationThickness_PnPPropertyAcquisitionRule</Name>
+        <Classname>PipeRunComponent</Classname>
+        <Operator xsi:type="PnPAnyRelatedTableColumn">
+          <TableName>P3dLineGroup</TableName>
+          <ColumnName>InsulationThickness</ColumnName>
+        </Operator>
+        <InitializeOnly>false</InitializeOnly>
+        <NotOverridable>false</NotOverridable>
+        <ColumnName>InsulationThickness</ColumnName>
+      </PnPRule>
+      <PnPRule xsi:type="PnPPropertyAcquisitionRule">
+        <Name>PipeRunComponent.InsulationType_PnPPropertyAcquisitionRule</Name>
+        <Classname>PipeRunComponent</Classname>
+        <Operator xsi:type="PnPAnyRelatedTableColumn">
+          <TableName>P3dLineGroup</TableName>
+          <ColumnName>InsulationType</ColumnName>
+        </Operator>
+        <InitializeOnly>false</InitializeOnly>
+        <NotOverridable>false</NotOverridable>
+        <ColumnName>InsulationType</ColumnName>
+      </PnPRule>
+      <PnPRule xsi:type="PnPPropertyAcquisitionRule">
+        <Name>PipeRunComponent.TracingType_PnPPropertyAcquisitionRule</Name>
+        <Classname>PipeRunComponent</Classname>
+        <Operator xsi:type="PnPAnyRelatedTableColumn">
+          <TableName>P3dLineGroup</TableName>
+          <ColumnName>TracingType</ColumnName>
+        </Operator>
+        <InitializeOnly>false</InitializeOnly>
+        <NotOverridable>false</NotOverridable>
+        <ColumnName>TracingType</ColumnName>
+      </PnPRule>
+      <PnPRule xsi:type="PnPPropertyAcquisitionRule">
+        <Name>PipeRunComponent.TracingSpec_PnPPropertyAcquisitionRule</Name>
+        <Classname>PipeRunComponent</Classname>
+        <Operator xsi:type="PnPAnyRelatedTableColumn">
+          <TableName>P3dLineGroup</TableName>
+          <ColumnName>TracingSpec</ColumnName>
+        </Operator>
+        <InitializeOnly>false</InitializeOnly>
+        <NotOverridable>false</NotOverridable>
+        <ColumnName>TracingSpec</ColumnName>
+      </PnPRule>
+      <PnPRule xsi:type="PnPPropertyAcquisitionRule">
+        <Name>PipeRunComponent.InsulationSpec_PnPPropertyAcquisitionRule</Name>
+        <Classname>PipeRunComponent</Classname>
+        <Operator xsi:type="PnPAnyRelatedTableColumn">
+          <TableName>P3dLineGroup</TableName>
+          <ColumnName>InsulationSpec</ColumnName>
+        </Operator>
+        <InitializeOnly>false</InitializeOnly>
+        <NotOverridable>false</NotOverridable>
+        <ColumnName>InsulationSpec</ColumnName>
+      </PnPRule>
+      <PnPRule xsi:type="PnPPropertyAcquisitionRule">
+        <Name>Fasteners.LineNumberTag_PnPPropertyAcquisitionRule</Name>
+        <Classname>Fasteners</Classname>
+        <Operator xsi:type="PnPAnyRelatedTableColumn">
+          <TableName>P3dLineGroup</TableName>
+          <ColumnName>Tag</ColumnName>
+        </Operator>
+        <InitializeOnly>false</InitializeOnly>
+        <NotOverridable>true</NotOverridable>
+        <ColumnName>LineNumberTag</ColumnName>
+      </PnPRule>
+      <PnPRule xsi:type="PnPPropertyAcquisitionRule">
+        <Name>Fasteners.InsulationThickness_PnPPropertyAcquisitionRule</Name>
+        <Classname>Fasteners</Classname>
+        <Operator xsi:type="PnPAnyRelatedTableColumn">
+          <TableName>P3dLineGroup</TableName>
+          <ColumnName>InsulationThickness</ColumnName>
+        </Operator>
+        <InitializeOnly>false</InitializeOnly>
+        <NotOverridable>false</NotOverridable>
+        <ColumnName>InsulationThickness</ColumnName>
+      </PnPRule>
+      <PnPRule xsi:type="PnPPropertyAcquisitionRule">
+        <Name>Fasteners.InsulationType_PnPPropertyAcquisitionRule</Name>
+        <Classname>Fasteners</Classname>
+        <Operator xsi:type="PnPAnyRelatedTableColumn">
+          <TableName>P3dLineGroup</TableName>
+          <ColumnName>InsulationType</ColumnName>
+        </Operator>
+        <InitializeOnly>false</InitializeOnly>
+        <NotOverridable>false</NotOverridable>
+        <ColumnName>InsulationType</ColumnName>
+      </PnPRule>
+      <PnPRule xsi:type="PnPPropertyAcquisitionRule">
+        <Name>Fasteners.Service_PnPPropertyAcquisitionRule</Name>
+        <Classname>Fasteners</Classname>
+        <Operator xsi:type="PnPAnyRelatedTableColumn">
+          <TableName>P3dLineGroup</TableName>
+          <ColumnName>Service</ColumnName>
+        </Operator>
+        <InitializeOnly>false</InitializeOnly>
+        <NotOverridable>false</NotOverridable>
+        <ColumnName>Service</ColumnName>
+      </PnPRule>
+      <PnPRule xsi:type="PnPPropertyAcquisitionRule">
+        <Name>Fasteners.TracingType_PnPPropertyAcquisitionRule</Name>
+        <Classname>Fasteners</Classname>
+        <Operator xsi:type="PnPAnyRelatedTableColumn">
+          <TableName>P3dLineGroup</TableName>
+          <ColumnName>TracingType</ColumnName>
+        </Operator>
+        <InitializeOnly>false</InitializeOnly>
+        <NotOverridable>false</NotOverridable>
+        <ColumnName>TracingType</ColumnName>
+      </PnPRule>
+      <PnPRule xsi:type="PnPPropertyAcquisitionRule">
+        <Name>Fasteners.TracingSpec_PnPPropertyAcquisitionRule</Name>
+        <Classname>Fasteners</Classname>
+        <Operator xsi:type="PnPAnyRelatedTableColumn">
+          <TableName>P3dLineGroup</TableName>
+          <ColumnName>TracingSpec</ColumnName>
+        </Operator>
+        <InitializeOnly>false</InitializeOnly>
+        <NotOverridable>false</NotOverridable>
+        <ColumnName>TracingSpec</ColumnName>
+      </PnPRule>
+      <PnPRule xsi:type="PnPPropertyAcquisitionRule">
+        <Name>Fasteners.InsulationSpec_PnPPropertyAcquisitionRule</Name>
+        <Classname>Fasteners</Classname>
+        <Operator xsi:type="PnPAnyRelatedTableColumn">
+          <TableName>P3dLineGroup</TableName>
+          <ColumnName>InsulationSpec</ColumnName>
+        </Operator>
+        <InitializeOnly>false</InitializeOnly>
+        <NotOverridable>false</NotOverridable>
+        <ColumnName>InsulationSpec</ColumnName>
+      </PnPRule>
+      <PnPRule xsi:type="PnPPropertyAcquisitionRule">
+        <Name>EngineeringItems.FacilityNo_PnPPropertyAcquisitionRule</Name>
+        <Classname>EngineeringItems</Classname>
+        <Operator xsi:type="PnPProjectProperty">
+          <CategoryName>Client_Information</CategoryName>
+          <PropertyName>Facility Number</PropertyName>
+        </Operator>
+        <InitializeOnly>false</InitializeOnly>
+        <NotOverridable>false</NotOverridable>
+        <ColumnName>FacilityNo</ColumnName>
+      </PnPRule>
+      <PnPRule xsi:type="PnPPropertyAcquisitionRule">
+        <Name>SteelStructure.FacilityNo_PnPPropertyAcquisitionRule</Name>
+        <Classname>SteelStructure</Classname>
+        <Operator xsi:type="PnPProjectProperty">
+          <CategoryName>Client_Information</CategoryName>
+          <PropertyName>Facility Number</PropertyName>
+        </Operator>
+        <InitializeOnly>false</InitializeOnly>
+        <NotOverridable>false</NotOverridable>
+        <ColumnName>FacilityNo</ColumnName>
+      </PnPRule>
+      <PnPRule xsi:type="PnPPropertyAcquisitionRule">
+        <Name>PipeRunComponent.Service_PnPPropertyAcquisitionRule</Name>
+        <Classname>PipeRunComponent</Classname>
+        <Operator xsi:type="PnPAnyRelatedTableColumn">
+          <TableName>P3dLineGroup</TableName>
+          <ColumnName>Service</ColumnName>
+        </Operator>
+        <InitializeOnly>false</InitializeOnly>
+        <NotOverridable>false</NotOverridable>
+        <ColumnName>Service</ColumnName>
+      </PnPRule>
+      <PnPRule xsi:type="PnPPropertyAcquisitionRule">
+        <Name>Cross.WBS_Level6_PnPPropertyAcquisitionRule</Name>
+        <Classname>Cross</Classname>
+        <Operator xsi:type="PnPAnyRelatedTableColumn">
+          <TableName>Cross</TableName>
+          <ColumnName>ItemCode</ColumnName>
+        </Operator>
+        <InitializeOnly>false</InitializeOnly>
+        <NotOverridable>false</NotOverridable>
+        <ColumnName>WBS_Level6</ColumnName>
+      </PnPRule>
+      <PnPRule xsi:type="PnPPropertyAcquisitionRule">
+        <Name>EngineeringItems.WBS_Level3_PnPPropertyAcquisitionRule</Name>
+        <Classname>EngineeringItems</Classname>
+        <Operator xsi:type="PnPDrawingProperty">
+          <CategoryName>Facility</CategoryName>
+          <PropertyName>WBSLevel3</PropertyName>
+        </Operator>
+        <InitializeOnly>false</InitializeOnly>
+        <NotOverridable>false</NotOverridable>
+        <ColumnName>WBS_Level3</ColumnName>
+      </PnPRule>
+    </ArrayOfPnPRule>
+  </ProjectRules>
+  <ProjectTriggers>
+    <PnPTrigger>
+      <Name>Cross_Update_Cross.WBS_Level6_PnPPropertyAcquisitionRule</Name>
+      <RuleName>Cross.WBS_Level6_PnPPropertyAcquisitionRule</RuleName>
+      <TableName>Cross</TableName>
+      <Action>Update</Action>
+      <Target>Related</Target>
+    </PnPTrigger>
+    <PnPTrigger>
+      <Name>P3dLineGroup_Update_PipeRunComponent.TracingType_PnPPropertyAcquisitionRule</Name>
+      <RuleName>PipeRunComponent.TracingType_PnPPropertyAcquisitionRule</RuleName>
+      <TableName>P3dLineGroup</TableName>
+      <Action>Update</Action>
+      <Target>Related</Target>
+    </PnPTrigger>
+    <PnPTrigger>
+      <Name>P3dLineGroup_Update_Fasteners.TracingSpec_PnPPropertyAcquisitionRule</Name>
+      <RuleName>Fasteners.TracingSpec_PnPPropertyAcquisitionRule</RuleName>
+      <TableName>P3dLineGroup</TableName>
+      <Action>Update</Action>
+      <Target>Related</Target>
+    </PnPTrigger>
+    <PnPTrigger>
+      <Name>P3dLineGroup_Update_Fasteners.InsulationSpec_PnPPropertyAcquisitionRule</Name>
+      <RuleName>Fasteners.InsulationSpec_PnPPropertyAcquisitionRule</RuleName>
+      <TableName>P3dLineGroup</TableName>
+      <Action>Update</Action>
+      <Target>Related</Target>
+    </PnPTrigger>
+    <PnPTrigger>
+      <Name>P3dLineGroup_Update_PipeRunComponent.InsulationType_PnPPropertyAcquisitionRule</Name>
+      <RuleName>PipeRunComponent.InsulationType_PnPPropertyAcquisitionRule</RuleName>
+      <TableName>P3dLineGroup</TableName>
+      <Action>Update</Action>
+      <Target>Related</Target>
+    </PnPTrigger>
+    <PnPTrigger>
+      <Name>P3dLineGroup_Update_PipeRunComponent.InsulationSpec_PnPPropertyAcquisitionRule</Name>
+      <RuleName>PipeRunComponent.InsulationSpec_PnPPropertyAcquisitionRule</RuleName>
+      <TableName>P3dLineGroup</TableName>
+      <Action>Update</Action>
+      <Target>Related</Target>
+    </PnPTrigger>
+    <PnPTrigger>
+      <Name>P3dLineGroup_Update_Fasteners.TracingType_PnPPropertyAcquisitionRule</Name>
+      <RuleName>Fasteners.TracingType_PnPPropertyAcquisitionRule</RuleName>
+      <TableName>P3dLineGroup</TableName>
+      <Action>Update</Action>
+      <Target>Related</Target>
+    </PnPTrigger>
+    <PnPTrigger>
+      <Name>P3dLineGroup_Update_Fasteners.LineNumberTag_PnPPropertyAcquisitionRule</Name>
+      <RuleName>Fasteners.LineNumberTag_PnPPropertyAcquisitionRule</RuleName>
+      <TableName>P3dLineGroup</TableName>
+      <Action>Update</Action>
+      <Target>Related</Target>
+    </PnPTrigger>
+    <PnPTrigger>
+      <Name>P3dLineGroup_Update_Fasteners.InsulationType_PnPPropertyAcquisitionRule</Name>
+      <RuleName>Fasteners.InsulationType_PnPPropertyAcquisitionRule</RuleName>
+      <TableName>P3dLineGroup</TableName>
+      <Action>Update</Action>
+      <Target>Related</Target>
+    </PnPTrigger>
+    <PnPTrigger>
+      <Name>P3dLineGroup_Update_PipeRunComponent.TracingSpec_PnPPropertyAcquisitionRule</Name>
+      <RuleName>PipeRunComponent.TracingSpec_PnPPropertyAcquisitionRule</RuleName>
+      <TableName>P3dLineGroup</TableName>
+      <Action>Update</Action>
+      <Target>Related</Target>
+    </PnPTrigger>
+    <PnPTrigger>
+      <Name>P3dLineGroup_Update_PipeRunComponent.LineNumberTag_PnPPropertyAcquisitionRule</Name>
+      <RuleName>PipeRunComponent.LineNumberTag_PnPPropertyAcquisitionRule</RuleName>
+      <TableName>P3dLineGroup</TableName>
+      <Action>Update</Action>
+      <Target>Related</Target>
+    </PnPTrigger>
+    <PnPTrigger>
+      <Name>P3dLineGroup_Update_PipeRunComponent.InsulationThickness_PnPPropertyAcquisitionRule</Name>
+      <RuleName>PipeRunComponent.InsulationThickness_PnPPropertyAcquisitionRule</RuleName>
+      <TableName>P3dLineGroup</TableName>
+      <Action>Update</Action>
+      <Target>Related</Target>
+    </PnPTrigger>
+    <PnPTrigger>
+      <Name>P3dLineGroup_Update_Fasteners.Service_PnPPropertyAcquisitionRule</Name>
+      <RuleName>Fasteners.Service_PnPPropertyAcquisitionRule</RuleName>
+      <TableName>P3dLineGroup</TableName>
+      <Action>Update</Action>
+      <Target>Related</Target>
+    </PnPTrigger>
+    <PnPTrigger>
+      <Name>P3dLineGroup_Update_PipeRunComponent.Service_PnPPropertyAcquisitionRule</Name>
+      <RuleName>PipeRunComponent.Service_PnPPropertyAcquisitionRule</RuleName>
+      <TableName>P3dLineGroup</TableName>
+      <Action>Update</Action>
+      <Target>Related</Target>
+    </PnPTrigger>
+    <PnPTrigger>
+      <Name>P3dLineGroup_Update_Fasteners.InsulationThickness_PnPPropertyAcquisitionRule</Name>
+      <RuleName>Fasteners.InsulationThickness_PnPPropertyAcquisitionRule</RuleName>
+      <TableName>P3dLineGroup</TableName>
+      <Action>Update</Action>
+      <Target>Related</Target>
+    </PnPTrigger>
+    <PnPTrigger>
+      <Name>PnPDrawings_Update_EngineeringItems.WBS_Level3_PnPPropertyAcquisitionRule</Name>
+      <RuleName>EngineeringItems.WBS_Level3_PnPPropertyAcquisitionRule</RuleName>
+      <TableName>PnPDrawings</TableName>
+      <Action>Update</Action>
+      <Target>Rule</Target>
+    </PnPTrigger>
+    <PnPTrigger>
+      <Name>PnPProject_Update_SteelStructure.FacilityNo_PnPPropertyAcquisitionRule</Name>
+      <RuleName>SteelStructure.FacilityNo_PnPPropertyAcquisitionRule</RuleName>
+      <TableName>PnPProject</TableName>
+      <Action>Update</Action>
+      <Target>Rule</Target>
+    </PnPTrigger>
+    <PnPTrigger>
+      <Name>PnPProject_Update_EngineeringItems.FacilityNo_PnPPropertyAcquisitionRule</Name>
+      <RuleName>EngineeringItems.FacilityNo_PnPPropertyAcquisitionRule</RuleName>
+      <TableName>PnPProject</TableName>
+      <Action>Update</Action>
+      <Target>Rule</Target>
+    </PnPTrigger>
+    <PnPTrigger>
+      <Name>PnPDrawings_Update_Equipment.Area_PnPPropertyAcquisitionRule</Name>
+      <RuleName>Equipment.Area_PnPPropertyAcquisitionRule</RuleName>
+      <TableName>PnPDrawings</TableName>
+      <Action>Update</Action>
+      <Target>Rule</Target>
+    </PnPTrigger>
+  </ProjectTriggers>
+  <ValidationSettings>
+    <EnabledRuleGuids>
+      <RuleGuid>
+        <Guid>PnP3dInterop.Unmatched3dInlineRule.Guid</Guid>
+        <Enabled>false</Enabled>
+      </RuleGuid>
+      <RuleGuid>
+        <Guid>PnP3dInterop.UnmatchedPIDInlineRule.Guid</Guid>
+        <Enabled>false</Enabled>
+      </RuleGuid>
+      <RuleGuid>
+        <Guid>PnP3dInterop.MismatchedTypeRule.Guid</Guid>
+        <Enabled>false</Enabled>
+      </RuleGuid>
+      <RuleGuid>
+        <Guid>PnP3dInterop.MismatchedPropsRule.Guid</Guid>
+        <Enabled>false</Enabled>
+      </RuleGuid>
+      <RuleGuid>
+        <Guid>PnP3dInterop.MismatchedLineRule.Guid</Guid>
+        <Enabled>false</Enabled>
+      </RuleGuid>
+      <RuleGuid>
+        <Guid>PnP3dInterop.ExcessNozzlesRule.Guid</Guid>
+        <Enabled>false</Enabled>
+      </RuleGuid>
+      <RuleGuid>
+        <Guid>PnP3dInterop.MissingNozzlesRule.Guid</Guid>
+        <Enabled>false</Enabled>
+      </RuleGuid>
+      <RuleGuid>
+        <Guid>Piping.DisconnectedRule.Guid</Guid>
+        <Enabled>true</Enabled>
+      </RuleGuid>
+      <RuleGuid>
+        <Guid>Piping.PropertyMismatchRule.Guid</Guid>
+        <Enabled>false</Enabled>
+      </RuleGuid>
+      <RuleGuid>
+        <Guid>Piping.PlaceholderRule.Guid</Guid>
+        <Enabled>false</Enabled>
+      </RuleGuid>
+    </EnabledRuleGuids>
+  </ValidationSettings>
+  <ProjectVersionMinor>0</ProjectVersionMinor>
+  <ProjectDataViews>
+    <ProjectDataView name="Line Group - Project Data" scope="Project" id="b9240319-040e-4ccb-96e0-7bb9068f62ed">
+      <Levels>
+        <ProjectDataViewLevel object="P3dLineGroup" property="AreaNo" />
+        <ProjectDataViewLevel object="P3dLineGroup" property="NominalSpec" />
+        <ProjectDataViewLevel object="P3dLineGroup" property="NominalSize" />
+      </Levels>
+    </ProjectDataView>
+  </ProjectDataViews>
+  <ProjectUnits>eMetric</ProjectUnits>
+  <DrawingHistoryStatus>
+    <StatusItem>&lt;Unassigned&gt;</StatusItem>
+    <StatusItem>In progress</StatusItem>
+    <StatusItem>For review</StatusItem>
+    <StatusItem>Revision 1</StatusItem>
+    <StatusItem>Revision 2</StatusItem>
+    <StatusItem>Revision 3</StatusItem>
+    <StatusItem>Revision 4</StatusItem>
+    <StatusItem>Final</StatusItem>
+    <StatusItem>Archive</StatusItem>
+    <StatusItem>50%</StatusItem>
+    <StatusItem>80%</StatusItem>
+    <StatusItem>100%</StatusItem>
+    <StatusItem>Ready for Model Review</StatusItem>
+  </DrawingHistoryStatus>
+  <ImportExportSettingsFiles>
+    <ImportExportSettingFile name="P3D MODEL LINE GROUP" fileName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\ImportExportSettings\P3D MODEL LINE GROUP.xml" relativeFileName="ImportExportSettings\P3D MODEL LINE GROUP.xml" uncFileName="D:\_testing\ST_Marys_P3D_2018_Rev_4.2\ImportExportSettings\P3D MODEL LINE GROUP.xml" />
+  </ImportExportSettingsFiles>
+  <PnPDrawingFiles />
+</Project>

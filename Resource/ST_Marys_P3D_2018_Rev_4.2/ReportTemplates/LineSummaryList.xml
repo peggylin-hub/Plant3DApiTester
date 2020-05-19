@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PnPQueryDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OrderBy>
+    <PnPSortItem>
+      <SortDirection>Ascending</SortDirection>
+      <SortColumn>LineNumber</SortColumn>
+    </PnPSortItem>
+  </OrderBy>
+  <QuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+    <RightQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+      <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>PnPDrawings</TableName>
+      </RightQuerySpecification>
+      <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>PnPDataLinks</TableName>
+      </LeftQuerySpecification>
+      <RightJoinColumns>
+        <string>PnPID</string>
+      </RightJoinColumns>
+      <LeftJoinColumns>
+        <string>DwgId</string>
+      </LeftJoinColumns>
+      <JoinOperation>LeftOuter</JoinOperation>
+    </RightQuerySpecification>
+    <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+      <CorrelationName />
+      <Filter />
+      <TableQualifier />
+      <TableName>PipeLineGroup</TableName>
+    </LeftQuerySpecification>
+    <RightJoinColumns>
+      <string>RowId</string>
+    </RightJoinColumns>
+    <LeftJoinColumns>
+      <string>PnPID</string>
+    </LeftJoinColumns>
+    <JoinOperation>LeftOuter</JoinOperation>
+  </QuerySpecification>
+  <DerivedProperties />
+  <SelectList>
+    <string>LineNumber</string>
+    <string>Service</string>
+    <string>PnID</string>
+    <string>Dwg Name</string>
+    <string>PnPID</string>
+    <string>NominalSpec</string>
+  </SelectList>
+</PnPQueryDefinition>

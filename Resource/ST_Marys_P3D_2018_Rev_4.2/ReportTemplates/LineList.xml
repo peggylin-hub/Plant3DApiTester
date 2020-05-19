@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PnPQueryDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OrderBy>
+    <PnPSortItem>
+      <SortDirection>Ascending</SortDirection>
+      <SortColumn>LineNumber</SortColumn>
+    </PnPSortItem>
+  </OrderBy>
+  <QuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+    <RightQuerySpecification xsi:type="PnPEqualJoinQuerySpecification">
+      <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>PnPDrawings</TableName>
+      </RightQuerySpecification>
+      <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>PnPDataLinks</TableName>
+      </LeftQuerySpecification>
+      <RightJoinColumns>
+        <string>PnPID</string>
+      </RightJoinColumns>
+      <LeftJoinColumns>
+        <string>DwgId</string>
+      </LeftJoinColumns>
+      <JoinOperation>LeftOuter</JoinOperation>
+    </RightQuerySpecification>
+    <LeftQuerySpecification xsi:type="PnPRelationshipQuerySpecification">
+      <RightQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>PipeLineGroup</TableName>
+      </RightQuerySpecification>
+      <LeftQuerySpecification xsi:type="PnPTableQuerySpecification">
+        <CorrelationName />
+        <Filter />
+        <TableQualifier />
+        <TableName>PipeLines</TableName>
+      </LeftQuerySpecification>
+      <RightRole>PipeLineGroup</RightRole>
+      <LeftRole>PipeLine</LeftRole>
+      <RelationshipTypes>
+        <string>PipeLineGroupRelationship</string>
+      </RelationshipTypes>
+    </LeftQuerySpecification>
+    <RightJoinColumns>
+      <string>RowId</string>
+    </RightJoinColumns>
+    <LeftJoinColumns>
+      <string>PnPID</string>
+    </LeftJoinColumns>
+    <JoinOperation>LeftOuter</JoinOperation>
+  </QuerySpecification>
+  <DerivedProperties />
+  <SelectList>
+    <string>PipeLines.Tag</string>
+    <string>LineNumber</string>
+    <string>PipeLineGroup.Service</string>
+    <string>NominalSpec</string>
+    <string>NominalSize</string>
+    <string>PnID</string>
+    <string>Dwg Name</string>
+    <string>PipeLines.Service</string>
+    <string>Size</string>
+    <string>Spec</string>
+    <string>From</string>
+    <string>To</string>
+    <string>OperatingPressure</string>
+    <string>OperatingTemperature</string>
+    <string>Insulation</string>
+    <string>Tracing</string>
+    <string>PaintCode</string>
+    <string>TestingFluid</string>
+    <string>TestPressure</string>
+    <string>PostWeldHeatTreatment</string>
+    <string>PnPID</string>
+    <string>InsulationType</string>
+  </SelectList>
+</PnPQueryDefinition>

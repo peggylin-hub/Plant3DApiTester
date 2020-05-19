@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConnectorsConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Config1">
+  <Joints>
+    <Joint Name="PipeBend">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2>
+        <PartType>PipeBend</PartType>
+      </PartTypes2>
+      <PartTypes1>
+        <PartType>Pipe</PartType>
+        <PartType>PipeBend</PartType>
+      </PartTypes1>
+      <EndConditions2>
+        <EndCondition>BV</EndCondition>
+        <EndCondition>PL</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>BV</EndCondition>
+        <EndCondition>PL</EndCondition>
+      </EndConditions1>
+      <Description>Pipe Bend joint without weld</Description>
+    </Joint>
+    <Joint Name="Buttweld">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Buttweld">
+          <Queries />
+          <PortOut />
+          <PortIn />
+          <Filter />
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>BV</EndCondition>
+        <EndCondition>PL</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>BV</EndCondition>
+        <EndCondition>PL</EndCondition>
+      </EndConditions1>
+      <Description>Buttweld joint</Description>
+    </Joint>
+    <Joint Name="MixedButtweld">
+      <IsImperialMetric>true</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Buttweld">
+          <Queries />
+          <PortOut />
+          <PortIn />
+          <Filter />
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>BV</EndCondition>
+        <EndCondition>PL</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>BV</EndCondition>
+        <EndCondition>PL</EndCondition>
+      </EndConditions1>
+      <Description>Mixed buttweld joint</Description>
+    </Joint>
+    <Joint Name="Socketweld">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Socketweld">
+          <Queries />
+          <PortOut />
+          <PortIn />
+          <Filter />
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>SW</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>PL</EndCondition>
+      </EndConditions1>
+      <Description>Socketwelded joint</Description>
+    </Joint>
+    <Joint Name="Threaded">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Thread">
+          <Queries />
+          <PortOut />
+          <PortIn />
+          <Filter />
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>THDF</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>THDM</EndCondition>
+        <EndCondition>PL</EndCondition>
+      </EndConditions1>
+      <Description>Threaded joint</Description>
+    </Joint>
+    <Joint Name="Flanged">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="BoltSet">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+        <JointElement PartType="Gasket">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>FL</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>FL</EndCondition>
+      </EndConditions1>
+      <Description>Flanged joint</Description>
+    </Joint>
+    <Joint Name="PushFit">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Gasket">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>PFS</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>PL</EndCondition>
+        <EndCondition>PPL</EndCondition>
+        <EndCondition>SPIG</EndCondition>
+      </EndConditions1>
+      <Description>Push fit joint</Description>
+    </Joint>
+    <Joint Name="WaferFlanged">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Gasket">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>WF</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>FL</EndCondition>
+      </EndConditions1>
+      <Description>Wafer flanged joint</Description>
+    </Joint>
+    <Joint Name="WaferWafer">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Gasket">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>WF</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>WF</EndCondition>
+      </EndConditions1>
+      <Description>Wafer wafer joint</Description>
+    </Joint>
+    <Joint Name="Fusionweld">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Fusionweld">
+          <Queries />
+          <PortOut />
+          <PortIn />
+          <Filter />
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>PPL</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>PPL</EndCondition>
+      </EndConditions1>
+      <Description>Fusion joint</Description>
+    </Joint>
+    <Joint Name="Glue">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Glue">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>PSW</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>PPL</EndCondition>
+      </EndConditions1>
+      <Description>Glue joint</Description>
+    </Joint>
+    <Joint Name="StubLapped">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Buttweld">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+        <JointElement PartType="StubEnd">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>BV</EndCondition>
+        <EndCondition>FL</EndCondition>
+        <EndCondition>PL</EndCondition>
+        <EndCondition>PPL</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>LAP</EndCondition>
+      </EndConditions1>
+      <Description>Stub-end lapped joint</Description>
+    </Joint>
+    <Joint Name="CollarLapped">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Collar">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+        <JointElement PartType="Buttweld">
+          <Queries />
+          <PortOut />
+          <PortIn />
+          <Filter />
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>BV</EndCondition>
+        <EndCondition>PL</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>LAP</EndCondition>
+      </EndConditions1>
+      <Description>Collared lapped joint</Description>
+    </Joint>
+    <Joint Name="Clamped">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Clamp">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>GRV</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>PL</EndCondition>
+        <EndCondition>GRV</EndCondition>
+        <EndCondition>PPL</EndCondition>
+      </EndConditions1>
+      <Description>Clamped joint</Description>
+    </Joint>
+    <Joint Name="Lug">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="BoltSet">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+        <JointElement PartType="Gasket">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>LUG</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>FL</EndCondition>
+      </EndConditions1>
+      <Description>Lug joint</Description>
+    </Joint>
+    <Joint Name="Slip">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="SlipOn">
+          <Queries />
+          <PortOut />
+          <PortIn />
+          <Filter />
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>BV</EndCondition>
+        <EndCondition>PL</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>SO</EndCondition>
+      </EndConditions1>
+      <Description>Slip on weld joint</Description>
+    </Joint>
+    <Joint Name="Tap">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="TapWeld">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>PL</EndCondition>
+        <EndCondition>BV</EndCondition>
+        <EndCondition>PPL</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>TAP</EndCondition>
+      </EndConditions1>
+      <Description>Tap joint</Description>
+    </Joint>
+    <Joint Name="ThreadedTap">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Thread">
+          <Queries />
+          <PortOut />
+          <PortIn />
+          <Filter />
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>THDM</EndCondition>
+        <EndCondition>PL</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>TAP</EndCondition>
+      </EndConditions1>
+      <Description>Threaded tap joint</Description>
+    </Joint>
+    <Joint Name="Mechanical">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Gland">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>MJF</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>MJM</EndCondition>
+        <EndCondition>PL</EndCondition>
+      </EndConditions1>
+      <Description>Mechanical joint</Description>
+    </Joint>
+    <Joint Name="MechanicalNoGland">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Universal">
+          <Queries />
+          <PortOut />
+          <PortIn />
+          <Filter />
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>MJF</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>MJP</EndCondition>
+      </EndConditions1>
+      <Description>Mechanical joint without gland</Description>
+    </Joint>
+    <Joint Name="Placeholder">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Universal">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>PL</EndCondition>
+        <EndCondition>BV</EndCondition>
+        <EndCondition>THDM</EndCondition>
+        <EndCondition>THDF</EndCondition>
+        <EndCondition>SW</EndCondition>
+        <EndCondition>FL</EndCondition>
+        <EndCondition>LAP</EndCondition>
+        <EndCondition>GRV</EndCondition>
+        <EndCondition>SO</EndCondition>
+        <EndCondition>PPL</EndCondition>
+        <EndCondition>PSW</EndCondition>
+        <EndCondition>LFL</EndCondition>
+        <EndCondition>LLP</EndCondition>
+        <EndCondition>BELL</EndCondition>
+        <EndCondition>SPIG</EndCondition>
+        <EndCondition>TAP</EndCondition>
+        <EndCondition>MJM</EndCondition>
+        <EndCondition>MJF</EndCondition>
+        <EndCondition>MJP</EndCondition>
+        <EndCondition>PFS</EndCondition>
+        <EndCondition>Universal_ET</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>Universal_ET</EndCondition>
+      </EndConditions1>
+      <Description>Placeholder joint</Description>
+    </Joint>
+    <Joint Name="MixedPlaceholder">
+      <IsImperialMetric>true</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Universal">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>PL</EndCondition>
+        <EndCondition>BV</EndCondition>
+        <EndCondition>THDM</EndCondition>
+        <EndCondition>THDF</EndCondition>
+        <EndCondition>SW</EndCondition>
+        <EndCondition>FL</EndCondition>
+        <EndCondition>LAP</EndCondition>
+        <EndCondition>GRV</EndCondition>
+        <EndCondition>SO</EndCondition>
+        <EndCondition>PPL</EndCondition>
+        <EndCondition>PSW</EndCondition>
+        <EndCondition>LFL</EndCondition>
+        <EndCondition>LLP</EndCondition>
+        <EndCondition>BELL</EndCondition>
+        <EndCondition>SPIG</EndCondition>
+        <EndCondition>TAP</EndCondition>
+        <EndCondition>MJM</EndCondition>
+        <EndCondition>MJF</EndCondition>
+        <EndCondition>MJP</EndCondition>
+        <EndCondition>PFS</EndCondition>
+        <EndCondition>Universal_ET</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>Universal_ET</EndCondition>
+      </EndConditions1>
+      <Description>Placeholder imperial to metric joint</Description>
+    </Joint>
+    <Joint Name="AutoFlange">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements>
+        <FittingElement PartType="Flange">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>C1.NominalDiameter=E1.NominalDiameter AND C2.NominalDiameter=E2.NominalDiameter</Filter>
+        </FittingElement>
+      </FittingElements>
+      <JointElements />
+      <OptionalMatchCondition />
+      <MatchCondition />
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>BV</EndCondition>
+        <EndCondition>FL</EndCondition>
+        <EndCondition>PL</EndCondition>
+        <EndCondition>PPL</EndCondition>
+        <EndCondition>Universal_ET</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>FL</EndCondition>
+        <EndCondition>LUG</EndCondition>
+        <EndCondition>PL</EndCondition>
+        <EndCondition>PPL</EndCondition>
+        <EndCondition>Universal_ET</EndCondition>
+        <EndCondition>WF</EndCondition>
+      </EndConditions1>
+      <Description>Auto flange joint</Description>
+    </Joint>
+    <Joint Name="MixedAutoFlange">
+      <IsImperialMetric>true</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements>
+        <FittingElement PartType="Flange">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>C1.NominalDiameter=E1.NominalDiameter AND C2.NominalDiameter=E2.NominalDiameter AND EndType='FL'</Filter>
+        </FittingElement>
+      </FittingElements>
+      <JointElements />
+      <OptionalMatchCondition />
+      <MatchCondition />
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>BV</EndCondition>
+        <EndCondition>FL</EndCondition>
+        <EndCondition>PL</EndCondition>
+        <EndCondition>PPL</EndCondition>
+        <EndCondition>Universal_ET</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>FL</EndCondition>
+        <EndCondition>LUG</EndCondition>
+        <EndCondition>WF</EndCondition>
+      </EndConditions1>
+      <Description>Auto flange imperial to metric joint</Description>
+    </Joint>
+    <Joint Name="AutoSleeve">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements>
+        <FittingElement PartType="Sleeve">
+          <Queries />
+          <PortOut />
+          <PortIn />
+          <Filter>C1.NominalDiameter=E1.NominalDiameter AND C2.NominalDiameter=E2.NominalDiameter</Filter>
+        </FittingElement>
+      </FittingElements>
+      <JointElements />
+      <OptionalMatchCondition />
+      <MatchCondition />
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>MJM</EndCondition>
+        <EndCondition>MJP</EndCondition>
+        <EndCondition>PL</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>MJM</EndCondition>
+      </EndConditions1>
+      <Description>Auto sleeve joint</Description>
+    </Joint>
+    <Joint Name="AutoThread">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements>
+        <FittingElement PartType="Coupling">
+          <Queries />
+          <PortOut />
+          <PortIn />
+          <Filter>C1.NominalDiameter=E1.NominalDiameter AND C2.NominalDiameter=E2.NominalDiameter AND EndType='THDF'</Filter>
+        </FittingElement>
+      </FittingElements>
+      <JointElements />
+      <OptionalMatchCondition />
+      <MatchCondition />
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>PL</EndCondition>
+        <EndCondition>THDM</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>THDM</EndCondition>
+      </EndConditions1>
+      <Description>Auto thread joint</Description>
+    </Joint>
+    <Joint Name="MixedFlangedJoint">
+      <IsImperialMetric>true</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="BoltSet">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+        <JointElement PartType="Gasket">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>FL</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>FL</EndCondition>
+      </EndConditions1>
+      <Description>Mixed Flanged Joint</Description>
+    </Joint>
+    <Joint Name="AutoGlue">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0.1</OffsetTolerance>
+      <SlopeTolerance>3</SlopeTolerance>
+      <FittingElements>
+        <FittingElement PartType="Glue">
+          <Queries />
+          <PortOut />
+          <PortIn />
+          <Filter>C1.NominalDiameter=E1.NominalDiameter AND C2.NominalDiameter=E2.NominalDiameter</Filter>
+        </FittingElement>
+      </FittingElements>
+      <JointElements />
+      <MatchCondition />
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>PPL</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>PSW</EndCondition>
+      </EndConditions1>
+      <Description>AutoGlue</Description>
+    </Joint>
+    <Joint Name="Triclover">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0</OffsetTolerance>
+      <SlopeTolerance>0.1</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Gasket">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+        <JointElement PartType="Clamp">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+      </JointElements>
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>TC</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>TC</EndCondition>
+      </EndConditions1>
+      <Description>Triclover Joint</Description>
+    </Joint>
+    <Joint Name="AutoFerrule">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0</OffsetTolerance>
+      <SlopeTolerance>0.1</SlopeTolerance>
+      <FittingElements>
+        <FittingElement PartType="Coupling">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>C1.NominalDiameter=E1.NominalDiameter AND C2.NominalDiameter=E2.NominalDiameter AND C1.EndType=E1.EndType</Filter>
+        </FittingElement>
+      </FittingElements>
+      <JointElements />
+      <MatchCondition />
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>PL</EndCondition>
+        <EndCondition>BV</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>TC</EndCondition>
+      </EndConditions1>
+      <Description>Auto Ferrule Joint</Description>
+    </Joint>
+    <Joint Name="Solder">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0</OffsetTolerance>
+      <SlopeTolerance>0.1</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Universal">
+          <Queries />
+          <PortOut />
+          <PortIn />
+          <Filter />
+        </JointElement>
+      </JointElements>
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>PL</EndCondition>
+        <EndCondition>FTG</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>C</EndCondition>
+      </EndConditions1>
+      <Description>Solder Joint</Description>
+    </Joint>
+    <Joint Name="Flare">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0</OffsetTolerance>
+      <SlopeTolerance>0.1</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Universal">
+          <Queries />
+          <PortOut />
+          <PortIn />
+          <Filter />
+        </JointElement>
+      </JointElements>
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>PL</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>FA</EndCondition>
+      </EndConditions1>
+      <Description>Flare Joint</Description>
+    </Joint>
+    <Joint Name="Press">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0</OffsetTolerance>
+      <SlopeTolerance>0.1</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Universal">
+          <Queries />
+          <PortOut />
+          <PortIn />
+          <Filter />
+        </JointElement>
+      </JointElements>
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>PL</EndCondition>
+        <EndCondition>FTG</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>P</EndCondition>
+      </EndConditions1>
+      <Description>Press Joint</Description>
+    </Joint>
+    <Joint Name="SlipSL">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0</OffsetTolerance>
+      <SlopeTolerance>0.1</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Universal">
+          <Queries />
+          <PortOut />
+          <PortIn />
+          <Filter />
+        </JointElement>
+      </JointElements>
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>PL</EndCondition>
+        <EndCondition>THDM</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>SL</EndCondition>
+      </EndConditions1>
+      <Description>Slip Joint</Description>
+    </Joint>
+    <Joint Name="AutoSolder">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0</OffsetTolerance>
+      <SlopeTolerance>0.1</SlopeTolerance>
+      <FittingElements>
+        <FittingElement PartType="Coupling">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>C1.NominalDiameter=E1.NominalDiameter AND C2.NominalDiameter=E2.NominalDiameter AND C1.EndType='C' AND C2.EndType='C'</Filter>
+        </FittingElement>
+      </FittingElements>
+      <JointElements />
+      <MatchCondition />
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>PL</EndCondition>
+        <EndCondition>FTG</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>FTG</EndCondition>
+      </EndConditions1>
+      <Description>Auto Solder Joint</Description>
+    </Joint>
+    <Joint Name="AutoStubEnd">
+      <IsImperialMetric>false</IsImperialMetric>
+      <OffsetTolerance>0</OffsetTolerance>
+      <SlopeTolerance>0</SlopeTolerance>
+      <FittingElements>
+        <FittingElement PartType="Flange">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>C1.NominalDiameter=E1.NominalDiameter AND C2.NominalDiameter=E2.NominalDiameter</Filter>
+        </FittingElement>
+      </FittingElements>
+      <JointElements />
+      <MatchCondition />
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>LAP</EndCondition>
+        <EndCondition>PL</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>LAP</EndCondition>
+        <EndCondition>PL</EndCondition>
+      </EndConditions1>
+      <Description>AutoStubEnd</Description>
+    </Joint>
+    <Joint Name="ThreadedJointImperial">
+      <IsImperialMetric>true</IsImperialMetric>
+      <OffsetTolerance>0</OffsetTolerance>
+      <SlopeTolerance>0</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Thread">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>THDF</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>PL</EndCondition>
+        <EndCondition>THDM</EndCondition>
+      </EndConditions1>
+      <Description>ThreadedJoint_imperial</Description>
+    </Joint>
+    <Joint Name="SlipOnImperial">
+      <IsImperialMetric>true</IsImperialMetric>
+      <OffsetTolerance>0</OffsetTolerance>
+      <SlopeTolerance>0</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="SlipOn">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>BV</EndCondition>
+        <EndCondition>PL</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>SO</EndCondition>
+      </EndConditions1>
+      <Description>SlipOnImperial</Description>
+    </Joint>
+    <Joint Name="StubendLappedJointImperial">
+      <IsImperialMetric>true</IsImperialMetric>
+      <OffsetTolerance>0</OffsetTolerance>
+      <SlopeTolerance>0</SlopeTolerance>
+      <FittingElements />
+      <JointElements>
+        <JointElement PartType="Buttweld">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+        <JointElement PartType="StubEnd">
+          <Queries />
+          <PortOut>S2</PortOut>
+          <PortIn>S1</PortIn>
+          <Filter>NominalDiameter=E1.NominalDiameter</Filter>
+        </JointElement>
+      </JointElements>
+      <OptionalMatchCondition />
+      <MatchCondition>E1.NominalDiameter=E2.NominalDiameter</MatchCondition>
+      <PartTypes2 />
+      <PartTypes1 />
+      <EndConditions2>
+        <EndCondition>BV</EndCondition>
+        <EndCondition>FL</EndCondition>
+        <EndCondition>PL</EndCondition>
+        <EndCondition>PPL</EndCondition>
+      </EndConditions2>
+      <EndConditions1>
+        <EndCondition>LAP</EndCondition>
+      </EndConditions1>
+      <Description>Stub-end lapped joint Imperial</Description>
+    </Joint>
+  </Joints>
+  <ConnectPipeToBendWithWeld>false</ConnectPipeToBendWithWeld>
+  <Description>Default Joint Configuration</Description>
+</ConnectorsConfiguration>

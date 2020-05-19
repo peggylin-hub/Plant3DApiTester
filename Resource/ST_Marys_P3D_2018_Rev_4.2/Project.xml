@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ProjectName>ST_Marys_P3D_2018_Rev_4.2</ProjectName>
+  <ProjectDescription>ST MARYS WRP</ProjectDescription>
+  <ProjectVersion>92</ProjectVersion>
+  <ProjectVersionMinor>0</ProjectVersionMinor>
+  <ProjectParts>
+    <ProjectPart name="PnId" fileName="C:\Users\LinP3\source\repos\Plant3DApiTester\Resource\ST_Marys_P3D_2018_Rev_4.2\PIP_Metric_PnIdPart.xml" relativeFileName="PIP_Metric_PnIdPart.xml" uncFileName="" />
+    <ProjectPart name="Piping" fileName="C:\Users\LinP3\source\repos\Plant3DApiTester\Resource\ST_Marys_P3D_2018_Rev_4.2\Metric_PipingPart.xml" relativeFileName="Metric_PipingPart.xml" uncFileName="" />
+    <ProjectPart name="Ortho" fileName="C:\Users\LinP3\source\repos\Plant3DApiTester\Resource\ST_Marys_P3D_2018_Rev_4.2\Metric_OrthoPart.xml" relativeFileName="Metric_OrthoPart.xml" uncFileName="" />
+    <ProjectPart name="Misc" fileName="C:\Users\LinP3\source\repos\Plant3DApiTester\Resource\ST_Marys_P3D_2018_Rev_4.2\MiscPart.xml" relativeFileName="MiscPart.xml" uncFileName="" />
+    <ProjectPart name="Iso" fileName="C:\Users\LinP3\source\repos\Plant3DApiTester\Resource\ST_Marys_P3D_2018_Rev_4.2\IsoPart.xml" relativeFileName="IsoPart.xml" uncFileName="" />
+  </ProjectParts>
+  <ProjectPartDirectories>
+    <ProjectPartDirectory name="SpecSheets" directoryName="C:\Users\LinP3\source\repos\Plant3DApiTester\Resource\ST_Marys_P3D_2018_Rev_4.2\Spec Sheets" relativeDirectoryName="Spec Sheets" uncDirectoryName="" />
+    <ProjectPartDirectory name="Ortho" directoryName="C:\Users\LinP3\source\repos\Plant3DApiTester\Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs" relativeDirectoryName="Orthos\DWGs" uncDirectoryName="" />
+    <ProjectPartDirectory name="Related Files" directoryName="C:\Users\LinP3\source\repos\Plant3DApiTester\Resource\ST_Marys_P3D_2018_Rev_4.2\Related Files" relativeDirectoryName="Related Files" uncDirectoryName="" />
+  </ProjectPartDirectories>
+</Project>

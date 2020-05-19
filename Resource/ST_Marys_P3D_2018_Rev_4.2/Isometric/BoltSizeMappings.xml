@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mappings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BoltSizeMappings>
+    <BoltSizeMapping Imperial="0.25" Metric="M6"/>
+    <BoltSizeMapping Imperial="0.375" Metric="M10"/>
+    <BoltSizeMapping Imperial="0.5" Metric="M14"/>
+    <BoltSizeMapping Imperial="0.625" Metric="M16"/>
+    <BoltSizeMapping Imperial="0.75" Metric="M20"/>
+    <BoltSizeMapping Imperial="0.875" Metric="M24"/>
+    <BoltSizeMapping Imperial="1" Metric="M27"/>
+    <BoltSizeMapping Imperial="1.125" Metric="M30"/>
+    <BoltSizeMapping Imperial="1.25" Metric="M33"/>
+    <BoltSizeMapping Imperial="1.375" Metric="M36"/>
+    <BoltSizeMapping Imperial="1.5" Metric="M39"/>
+    <BoltSizeMapping Imperial="1.625" Metric="M42"/>
+    <BoltSizeMapping Imperial="1.75" Metric="M45"/>
+    <BoltSizeMapping Imperial="1.875" Metric="M48"/>
+    <BoltSizeMapping Imperial="2" Metric="M52"/>
+    <BoltSizeMapping Imperial="2.5" Metric="M56"/>
+    <BoltSizeMapping Imperial="2.25" Metric="M64"/>
+    <BoltSizeMapping Imperial="2.75" Metric="M72"/>
+    <BoltSizeMapping Imperial="3" Metric="M76"/>
+    <BoltSizeMapping Imperial="3.25" Metric="M85"/>
+    <BoltSizeMapping Imperial="3.5" Metric="M90"/>
+    <BoltSizeMapping Imperial="3.75" Metric="M95"/>
+    <BoltSizeMapping Imperial="4" Metric="M100"/>
+  </BoltSizeMappings>
+  <ValveOperatorDirectionAliasMappings>
+    <DirectionAliasMapping UP="UP"/>
+    <DirectionAliasMapping DOWN="DOWN"/>
+    <DirectionAliasMapping NORTH="NORTH"/>
+    <DirectionAliasMapping SOUTH="SOUTH"/>
+    <DirectionAliasMapping EAST="EAST"/>
+    <DirectionAliasMapping WEST="WEST"/>
+  </ValveOperatorDirectionAliasMappings>
+</Mappings>

@@ -1,0 +1,19 @@
+C:\Users\LinP3\source\repos\Plant3DApiTester\Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA01\Mechanical\ST0011-PR-01-ME-EQUIPMENT.dwg
+======================================== check PnPTable ========================================
+Number of objects in current project database =16
+[1]PnPId 269428 ?(rid), Tag =  () Nozzle, threaded (M), DIN METRIC <>.
+[2]PnPId 269459 ?(rid), Tag = BIN90261 () SCREENINGS BIN 2 <>.
+[3]PnPId 269450 ?(rid), Tag =  () Nozzle, flanged, C, 16, DIN 2633 <>.
+[4]PnPId 275319 ?(rid), Tag = UTY90001 () 50-FW-B4-292 <>.
+[5]PnPId 275330 ?(rid), Tag = UTY90002 () 50-FW-B4-292 <>.
+[6]PnPId 346703 ?(rid), Tag = N-1? () Nozzle, flanged, C, 16, DIN 2633 <>.
+[7]PnPId 346600 ?(rid), Tag = BIN90251 () SCREENINGS BIN 1 <>.
+[8]PnPId 346601 ?(rid), Tag = N-2? () Nozzle, DIN 2441 <>.
+[9]PnPId 435004 ?(rid), Tag = CHUTE-SCN-B4340 () DISCHARGE CHUTE 1 <>.
+[10]PnPId 435030 ?(rid), Tag = N-1 () Nozzle, flanged, C, 16, DIN 2633 <>.
+[11]PnPId 435000 ?(rid), Tag = N-2 () Nozzle, flanged, C, 16, DIN 2633 <>.
+[12]PnPId 435028 ?(rid), Tag = WPR90230 () SCREW WASH PRESS No2 <>.
+[13]PnPId 435006 ?(rid), Tag = CHUTE-SCN-B4334 () DISCHARGE CHUTE 2 <>.
+[14]PnPId 435058 ?(rid), Tag = N-2 () Nozzle, flanged, C, 16, DIN 2633 <>.
+[15]PnPId 435045 ?(rid), Tag = N-1 () Nozzle, flanged, C, 16, DIN 2633 <>.
+[16]PnPId 435020 ?(rid), Tag = WPR90210 () SCREW WASH PRESS No1 <>.

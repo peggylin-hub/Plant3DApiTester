@@ -1,0 +1,18 @@
+<MsgList>
+  <Tables3d>
+    <data id="$$dn-EngineeringItems-Effective_Length">Effective_Length</data>
+    <data id="$$dn-PipeRunComponent-Effective_Length">Effective_Length</data>
+    <data id="$$dn-Fasteners-Effective_Length">Effective_Length</data>
+    <data id="$$dn-Fasteners-Spec_Version">Spec_Version</data>
+    <data id="$$dn-Fasteners-COG X">Center of Gravity X</data>
+    <data id="$$dn-Equipment-PnIDNo">PnID Number</data>
+    <data id="$$jd-AutoFlange">Auto flange joint</data>
+    <data id="$$jd-StubLapped">Stub-end lapped joint</data>
+    <data id="$$jd-AutoStubEnd">AutoStubEnd</data>
+    <data id="$$jd-SlipOnImperial">SlipOnImperial</data>
+    <data id="$$jd-ThreadedJointImperial">ThreadedJoint_imperial</data>
+    <data id="$$jd-FlangedImperial">FlangedImperial</data>
+    <data id="$$jd-MixedAutoFlange">Auto flange imperial to metric joint</data>
+    <data id="$$jd-StubendLappedJointImperial">Stub-end lapped joint Imperial</data>
+  </Tables3d>
+</MsgList>

@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{93F0AB4F-8A09-4B3F-9CB9-18D739C66C0A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Plant3DApiTester</RootNamespace>
+    <AssemblyName>Plant3DApiTester</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="accoremgd">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\AutoCAD 2020\accoremgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="acdbmgd">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\AutoCAD 2020\acdbmgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="acmgd">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\AutoCAD 2020\acmgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PnIDmgd">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\AutoCAD 2020\PLNT3D\PnIDmgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PnIdProjectPartsMgd">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\AutoCAD 2020\PLNT3D\PnIdProjectPartsMgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PnP3dConnectionManager">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\AutoCAD 2020\PLNT3D\PnP3dConnectionManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PnP3dObjectsMgd">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\AutoCAD 2020\PLNT3D\PnP3dObjectsMgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PnP3dPartsRepository">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\AutoCAD 2020\PnP3dPartsRepository.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PnP3dProjectPartsMgd">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\AutoCAD 2020\PLNT3D\PnP3dProjectPartsMgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PnPCommonDbxMgd">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\AutoCAD 2020\PLNT3D\PnPCommonDbxMgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PnPDataLinks">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\AutoCAD 2020\PnPDataLinks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PnPDataObjects">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\AutoCAD 2020\PnPDataObjects.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PnPProjectManagerMgd">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\AutoCAD 2020\PLNT3D\PnPProjectManagerMgd.DLL</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GetData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resource\partDataFromDB.txt" />
+    <Content Include="Resource\partDataFromDB_1.txt" />
+    <Content Include="Resource\partDataFromObj.txt" />
+    <Content Include="Resource\partDataFromObj_1.txt" />
+    <Content Include="Resource\plant_3d_AddProperties.txt" />
+    <Content Include="Resource\plant_3d_data.txt" />
+    <Content Include="Resource\plant_3d_data_1.txt" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\DefaultConnectorsConfig.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ImportExportSettings\P3D MODEL LINE GROUP.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Isometric\ABS-SS style\IsoConfig.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Isometric\ABS-SS style\PipelinesSettings.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Isometric\BoltSizeMappings.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Isometric\DICL style\IsoConfig.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Isometric\IsoSkeyAcadBlockMap.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Isometric\IsoSymbolStyles.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Isometric\Plant3dIsoSymbols.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Isometric\PropertyTranslationMapping.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\IsoPart.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Metric_OrthoPart.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Metric_PipeBendDefaultValues.txt" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Metric_PipingPart.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\MiscPart.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA00\ST0011-M0000-27.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA00\ST0011-M0000-28.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA01\ST0011-M4020-1.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA02\ST0011-M4024-2.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA03\ST0011-M4060-0006.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA05\ST0011-M4024-0007.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA05\ST0011-M4024-0008.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA05\ST0011-M4024-0009.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA05\ST0011-M4024-0010.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA05\ST0011-M4024-0011.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA05\ST0011-M7505-0002.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA05\ST0011-M7505-0003.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA09\ST0011-M4011-1.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA10\ST0011-M4011-11.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA10\ST0011-M4011-12.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA10\ST0011-M4011-14.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA10\ST0011-M4011-15.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Styles\Default\OrthoConfig.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Styles\OrthoSymbolStyles.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\PIDTo3dClassMapping.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\PIDToSpecClassMapping.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\PIP_Metric_PnIdPart.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA00\Civil\ST0011-PR-00-CI-Site Layout.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA01\Mechanical\ST0011-PR-01-ME-EQUIPMENT.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA01\Mechanical\ST0011-PR-01-ME-EQUIPMENT_2.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA01\Mechanical\ST0011-PR-01-ME-FOUL_AIR.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA01\Mechanical\ST0011-PR-01-ME-PIPESUPPORTS.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA01\Mechanical\ST0011-PR-01-ME-PIPEWORK.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA02\Mechanical\ST0011-PR-02-ME-EQUIPMENT.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA02\Mechanical\ST0011-PR-02-ME-ODOUR.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA02\Mechanical\ST0011-PR-02-ME-PIPESUPPORTS.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA02\Mechanical\ST0011-PR-02-ME-PIPEWORK.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA03\Mechanical\ST0011-PR-03-ME-PIPEWORK.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA04\Mechanical\ST0011-PR-04-ME-FOUL_AIR.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA04\Mechanical\ST0011-PR-04-ME-PIPEWORK.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA05\Mechanical\ST0011-PR-05-ME-EQUIPMENT.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA05\Mechanical\ST0011-PR-05-ME-PIPESUPPORTS.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA05\Mechanical\ST0011-PR-05-ME-PIPEWORK.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA05\Structural\ST0011-PR-05-ST-STRUCTURAL.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA09\Mechanical\ST0011-PR-09-ME-EQUIPMENT.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA09\Mechanical\ST0011-PR-09-ME-Odour.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA09\Mechanical\ST0011-PR-09-ME-PIPESUPPORTS.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA09\Mechanical\ST0011-PR-09-ME-PIPING.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA10\Mechanical\ST0011-EX-10-ME-Base_Model.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA10\Mechanical\ST0011-PR-10-ME-EQUIPMENT.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA10\Mechanical\ST0011-PR-10-ME-PIPESUPPORTS.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA10\Mechanical\ST0011-PR-10-ME-PIPEWORK.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA10\Structural\ST0011-EX-10-ST-Base_Model.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Project.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ProjectSetupSpecUpdateSettings.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\projSymbolStyle.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Related Files\St Mary Grid File.dwg" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\All Control Valve List.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\ALL Instrument List.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\All Manual Valve List.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\ControlValveList.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\DocumentList.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\EquipmentList.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\InstrumentationIndex.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\LineList.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\LineSummaryList.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\NozzleList.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\SpecialtyItemsList.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\SWC - Line List.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\SWC Schedule - All Instruments.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\SWC Schedule - All Valves.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\SWC Schedule - Ctrl Valve List.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\SWC Schedule - Equipment List.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\SWC Schedule - Flowmeter List.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\SWC Schedule - Instrument List.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\SWC Schedule - Manual Valve.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\SWC Schedule - Penstock List.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\SWC Schedule - Stopboard List.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ReportTemplates\SWC Schedule - Weir List.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\StringTables\en-US.xml" />
+    <Content Include="Resource\ST_Marys_P3D_2018_Rev_4.2\SubstitutionPalettes.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\Piping.pdf" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Iso.dcf" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Isometric\ABS-SS style\ClientConfig.isf" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Isometric\ABS-SS style\Iso.atr" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Isometric\ABS-SS style\Iso.dwt" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Isometric\DICL style\ClientConfig.isf" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Isometric\DICL style\Iso.atr" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Isometric\DICL style\Iso.dwt" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Isometric\Live Preview\Sample PCF\SampleIsoPreview.pcf" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Misc.dcf" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Ortho.dcf" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA10\ST0011-M4011-11.bak" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA10\ST0011-M4011-12.bak" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA10\ST0011-M4011-14.bak" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA10\ST0011-M4011-15.bak" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 11 - Front Elevation.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 11 - Plan.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 11 - Side Elevation.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - Elevation East.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - Elevation Looking East.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - Elevation Looking North.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - Elevation Looking West.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - Elevation North.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - Elevation South.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - Elevation West.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - Elv_looking East.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - Elv_looking North.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - Elv_looking South.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - Elv_looking West.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - Elv_looking West2.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - mid slab cross section north.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - Overall.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - Pump Farm Plan.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - Pump Farm Section 1.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - Pump Farm Section 2.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - Pump Farm Section 3.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - tank cross section east.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - tank cross section north.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 - West Tank Pump Section.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area 2 Overall.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_4_Elv_looking East.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_4_Elv_looking North.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_4_Elv_looking South.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_4_Plan.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_5_Elv_looking North.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_5_Plan.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_5_Poly_dosing_Elv_Looking North.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_5_Poly_dosing_Elv_Looking West.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_5_Poly_dosing_Plan.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_5_Poly_dosing_Section 1.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_5_Poly_dosing_Section 2.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_5_Poly_dosing_Section 3.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_5_Poly_dosing_Section 4.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_5_Poly_Prep_Elv_Looking West.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_5_Poly_Prep_Plan.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_5_Poly_Prep_PS_Plan.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_5_Pre-Dewater_plan.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_5_Section 1.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_5_Section 2.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_5_Section 3.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_5_Section_1.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Area_5_Section_2.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\General area.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Screen Section 2.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Orthocube Library\Screen Section.qry" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Styles\Default\Ortho - A1 -Color Dependent Plot Styles.dwt" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Styles\Default\Ortho - A1 -Named Plot Styles.dwt" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\Styles\orthoTemp.dwt" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Piping.dcf" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA01\Mechanical\ST0011-PR-01-ME-PIPEWORK-0.nwc" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA01\Mechanical\ST0011-PR-01-ME-PIPEWORK.dwfx" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA01\Mechanical\ST0011-PR-01-ME-PIPEWORK.nwc" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA05\Mechanical\ST0011-PR-05-ME-EQUIPMENT.bak" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA05\Structural\ST0011-PR-05-ST-STRUCTURAL.bak" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA10\Mechanical\ST0011-PR-10-ME-EQUIPMENT.bak" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA10\Mechanical\ST0011-PR-10-ME-PIPESUPPORTS.bak" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA10\Mechanical\ST0011-PR-10-ME-PIPEWORK.bak" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ProcessPower.dcf" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Project.xml.lock" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\ProjectAnchor.ank" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Spec Sheets\B4.pspc" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Spec Sheets\B4.pspx" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Spec Sheets\B5.pspc" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Spec Sheets\B5.pspx" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Spec Sheets\B7.pspc" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Spec Sheets\B7.pspx" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Spec Sheets\CustomParts Metric.pspc" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Spec Sheets\CustomParts Metric.pspx" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Spec Sheets\D1.pspc" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Spec Sheets\D1.pspx" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Spec Sheets\D3.pspc" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Spec Sheets\D3.pspx" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Spec Sheets\Instrumentation Metric.pspc" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Spec Sheets\Instrumentation Metric.pspx" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Spec Sheets\SWC Pipe Support.pspc" />
+    <None Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Spec Sheets\SWC Pipe Support.pspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Equipment Templates\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Images\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Isometric\ABS-SS style\PCFs\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Isometric\ABS-SS style\ProdIsos\Drawings\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA04\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA06\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA07\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA08\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA11\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Orthos\DWGs\AREA12\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\PID DWG\P&amp;ID\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\PID DWG\PFD\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA00\Mechanical\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA00\Structural\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA01\Civil\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA01\Structural\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA02\Civil\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA02\Structural\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA03\Civil\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA03\Structural\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA04\Civil\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA04\Structural\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA05\Civil\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA06\Civil\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA06\Mechanical\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA06\Structural\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA07\Civil\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA07\Mechanical\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA07\Structural\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA08\Civil\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA08\Mechanical\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA08\Structural\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA09\Civil\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA09\Structural\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA10\Civil\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA11\Civil\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA11\Mechanical\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA11\Structural\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA12\Civil\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA12\Mechanical\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Plant 3D Models\AREA12\Structural\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Project Recycle Bin\" />
+    <Folder Include="Resource\ST_Marys_P3D_2018_Rev_4.2\Related Files\Area Layouts\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<PropertyTranslationMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1" Name="Default">
+  <!-- Property translation mappings. -->  
+  <!-- Example: -->
+  <!--   Uncomment the line below to substitute all instances of -->
+  <!--   "Short Radius" (within an annotation) with "SR". -->
+  
+  <!--<Property Key="Short Radius" Value="SR" />-->
+</PropertyTranslationMap> 
